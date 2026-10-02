@@ -12,48 +12,28 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="gnav" id="gnav">
+<header class="pnav" id="pnav">
   <div class="wrap">
-    <a class="wordmark" href="/" aria-label="Lucid">Lucid<span class="dot" aria-hidden="true"></span></a>
-    <ul class="gnav-links">
-      <li><button type="button" aria-haspopup="true">Products <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button>
-        <ul class="menu">
-          <li><a href="#"><b>Lucidchart</b><span>Intelligent diagramming</span></a></li>
-          <li><a href="#"><b>Lucidspark</b><span>Virtual whiteboarding</span></a></li>
-          <li class="sep">Lucid Suite add-ons</li>
-          <li><a href="/"><b>Harvest</b><span>Prototype reviews that turn into pull requests (concept)</span></a></li>
-        </ul></li>
-      <li><button type="button">Solutions <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><button type="button">Resources <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><button type="button">Company <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><a href="#">Enterprise</a></li>
-    </ul>
-    <div class="gnav-right">
-      <a class="login" href="#">Log in</a>
-      <a class="btn btn-secondary btn-sm" href="/beta">Contact sales</a>
-      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
-    </div>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<nav class="pnav" aria-label="Harvest">
-  <div class="wrap">
-    <a class="pmark" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="1.5" y="7" width="13" height="13" rx="1.5" fill="#ff8f8f" transform="rotate(-10 8 13.5)"/><rect x="6.5" y="2.5" width="13" height="13" rx="1.5" fill="#ffe342"/><rect x="11" y="10" width="13.5" height="13.5" rx="1.5" fill="#eb5a00"/><path d="M14.3 16.9l2.6 2.6 4.6-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Harvest <small>for Lucidchart</small></a>
-    <ul>
+    <a class="pmark" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="1.5" y="7" width="13" height="13" rx="1.5" fill="#ff8f8f" transform="rotate(-10 8 13.5)"/><rect x="6.5" y="2.5" width="13" height="13" rx="1.5" fill="#ffe342"/><rect x="11" y="10" width="13.5" height="13.5" rx="1.5" fill="#eb5a00"/><path d="M14.3 16.9l2.6 2.6 4.6-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Harvest</a>
+    <div class="pnav-menu" id="pnav-menu">
+    <ul class="pnav-links">
       <li><a href="/">Overview</a></li>
       <li><a href="/how-it-works" aria-current="page">How it works</a></li>
       <li><a href="/pricing">Pricing</a></li>
       <li><a href="/beta">Beta</a></li>
     </ul>
-    <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+    <div class="pnav-right">
+      <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
+    </div>
+    </div>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="pnav-menu"><span></span><span></span><span></span></button>
   </div>
-</nav>
-<div class="announce-wrap"><p class="announce">Harvest for Lucidchart is in early development. We're inviting teams to shape it. <a href="/beta">Get on the list &rarr;</a></p></div>
+</header>
 <main id="main">
 
 <section class="hero hero-centered" id="top">
   <div class="wrap">
-    <p class="eyebrow">How it works</p>
     <h1 class="h-xl h-wide">From prototype to pull request, one review cycle at a time</h1>
     <p class="lede" style="margin-top:24px">Harvest runs a repeatable loop around a Lucidchart board. Here&rsquo;s what happens in each cycle, using screens from our sample run.</p>
     <div class="cta-row"><a class="btn btn-primary btn-lg" href="/beta">Join the beta list</a><a class="btn btn-secondary btn-lg" href="#limits">What&rsquo;s not solved yet</a></div>
@@ -93,7 +73,7 @@
 
 <section id="needs">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">What you&rsquo;ll need</p><h2 class="h-lg">Fits the tools you already use</h2></div>
+    <div class="sec-head"><h2 class="h-lg">Fits the tools you already use</h2></div>
     <div class="cards">
       <div class="card"><h3>Lucidchart</h3><p>Reviewers work on a normal Lucidchart board. Harvest builds and reads it through the Lucid MCP server.</p></div>
       <div class="card"><h3>A prototype or staging app</h3><p>Anything reachable by URL. Deploy previews per pull request make the before/after loop work best.</p></div>
@@ -104,7 +84,7 @@
 
 <section class="bg-grey" id="limits">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Being upfront</p><h2 class="h-lg">What we haven&rsquo;t solved yet</h2></div>
+    <div class="sec-head"><h2 class="h-lg">What we haven&rsquo;t solved yet</h2></div>
     <div class="faq">
       <details open><summary>Screenshots need a reachable image host</summary><p>Captured screens are uploaded to an image host so the board can display them. Private hosting options are on the list.</p></details>
       <details><summary>Lucid comments aren&rsquo;t tied to a shape yet</summary><p>That&rsquo;s why Harvest uses the stickies-inside-frames convention. Comments are still collected and treated as general feedback.</p></details>

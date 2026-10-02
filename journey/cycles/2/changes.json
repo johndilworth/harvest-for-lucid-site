@@ -1,0 +1,73 @@
+{
+ "source": "journey/cycles/1/harvest/feedback.json (5 stickies + 1 empty, Lucid 58ff5647) + PR #1 body (head 7a89b64). # = row of the PR #1 sticky->change table.",
+ "flows": {
+  "home": {
+   "default": [
+    "[try] Section eyebrow removed, headline stands alone (#5)",
+    "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+   ]
+  },
+  "how-it-works": {
+   "default": [
+    "[try] Eyebrows removed site-wide (#5)",
+    "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+   ]
+  },
+  "beta-signup": {
+   "default": [
+    "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+   ]
+  },
+  "pricing": {
+   "default": [
+    "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+   ]
+  }
+ },
+ "steps": {
+  "home-01-hero": [
+   "[must] “Get on the list” announcement banner removed (#1)",
+   "[must] Caption under the hero buttons removed (#2)",
+   "[try] Hero eyebrow “Harvest for Lucidchart · Lucid Suite add-on (concept)” removed (#4)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "home-09-compare": [
+   "[try] Section eyebrow removed, headline stands alone (#5)",
+   "Compare table column now “Harvest” (#3)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "home-11-cta-footer": [
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)",
+   "Footer unchanged (sticky was about the header)"
+  ],
+  "beta-01-home-cta": [
+   "[must] “Get on the list” announcement banner removed (#1)",
+   "[must] Caption under the hero buttons removed (#2)",
+   "[try] Hero eyebrow removed (#4)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "beta-02-form": [
+   "[try] Eyebrow “Harvest beta” removed (#5)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "beta-03-form-filled": [
+   "[try] Eyebrow “Harvest beta” removed (#5)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "how-01-top": [
+   "[must] “Get on the list” announcement banner removed (#1)",
+   "[try] Eyebrow “How it works” removed (#5)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "pricing-01-plans": [
+   "[must] “Get on the list” announcement banner removed (#1)",
+   "[try] Eyebrow “Pricing” removed (#5); intro now “Harvest is a concept…”",
+   "Cycle 1 empty sticky here: needs intent, no change (R8)",
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)"
+  ],
+  "pricing-02-faq": [
+   "[try] Single header: Lucid menu bar removed, sticky Harvest nav with “Join the beta”; product renamed “Harvest” (#3)",
+   "FAQ keeps “add-on for Lucidchart” (describes the product)"
+  ]
+ }
+}

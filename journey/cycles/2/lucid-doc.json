@@ -1,0 +1,83 @@
+{
+  "cycle": 2,
+  "layout": "one board per flow + hub",
+  "hubDocId": "ab0c1380-4632-4ca2-a102-d34f200d385d",
+  "hubEditUrl": "https://lucid.app/lucidchart/ab0c1380-4632-4ca2-a102-d34f200d385d/edit",
+  "status": "CREATED: 4 flow boards + hub. The original 4-page import (lucid-spec.json) was rejected by the tool-approval classifier; each flow page is copied byte for byte into its own single-page spec. Harvest across all 4 flow boards (the hub carries no review frames).",
+  "boards": [
+    {
+      "role": "hub",
+      "flow": null,
+      "title": "Harvest site — Cycle 2 review (PR #1) · Hub",
+      "docId": "ab0c1380-4632-4ca2-a102-d34f200d385d",
+      "spec": "lucid-spec-hub.json",
+      "frames": 4,
+      "created": "2026-10-02 13:57 MDT",
+      "renderCheck": "full-page export OK: title, how-to, legend, 4 tiles with thumbnails + linked text all render (report/c2-hub.png)",
+      "editUrl": "https://lucid.app/lucidchart/ab0c1380-4632-4ca2-a102-d34f200d385d/edit",
+      "viewUrl": "https://lucid.app/lucidchart/ab0c1380-4632-4ca2-a102-d34f200d385d/view"
+    },
+    {
+      "role": "flow",
+      "flow": "home",
+      "route": "/",
+      "title": "Harvest site — Cycle 2 review (PR #1) · Home",
+      "docId": "94e6f74e-a6ce-43cd-a33d-73bb349db041",
+      "spec": "lucid-spec-home.json",
+      "frames": 11,
+      "created": "2026-10-02 13:27 MDT",
+      "renderCheck": "Full-page export returned Lucid 'Internal server error' twice (page ~29.4k px wide); 4 cropped exports (title+frames 1-2, 3-5, 6-8, 9-11) all render: 11/11 cycle-2 screenshots + 11/11 cycle-1 before thumbnails visible, arrows, headers and change lists present. Preflight: 0 errors, 25 text-fit warnings (none visibly clipped).",
+      "editUrl": "https://lucid.app/lucidchart/94e6f74e-a6ce-43cd-a33d-73bb349db041/edit",
+      "viewUrl": "https://lucid.app/lucidchart/94e6f74e-a6ce-43cd-a33d-73bb349db041/view"
+    },
+    {
+      "role": "flow",
+      "flow": "beta-signup",
+      "route": "/ → /beta",
+      "title": "Harvest site — Cycle 2 review (PR #1) · Beta signup",
+      "docId": "c7af9ce3-3fbe-431b-8745-aab57fa2f2c2",
+      "spec": "lucid-spec-beta-signup.json",
+      "frames": 4,
+      "created": "2026-10-02 13:53 MDT",
+      "renderCheck": "full-page export OK: 4/4 c2 screenshots + 4/4 c1 thumbs (report/c2-board-beta-signup.png)",
+      "editUrl": "https://lucid.app/lucidchart/c7af9ce3-3fbe-431b-8745-aab57fa2f2c2/edit",
+      "viewUrl": "https://lucid.app/lucidchart/c7af9ce3-3fbe-431b-8745-aab57fa2f2c2/view"
+    },
+    {
+      "role": "flow",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "title": "Harvest site — Cycle 2 review (PR #1) · How it works",
+      "docId": "e036d1c4-3f8b-4069-b797-b8e338bca337",
+      "spec": "lucid-spec-how-it-works.json",
+      "frames": 5,
+      "created": "2026-10-02 13:54 MDT",
+      "renderCheck": "full-page export OK: 5/5 c2 screenshots + 5/5 c1 thumbs (report/c2-board-how-it-works.png)",
+      "editUrl": "https://lucid.app/lucidchart/e036d1c4-3f8b-4069-b797-b8e338bca337/edit",
+      "viewUrl": "https://lucid.app/lucidchart/e036d1c4-3f8b-4069-b797-b8e338bca337/view"
+    },
+    {
+      "role": "flow",
+      "flow": "pricing",
+      "route": "/pricing",
+      "title": "Harvest site — Cycle 2 review (PR #1) · Pricing",
+      "docId": "3071b809-3d20-47e9-b24c-5e494f58d5b6",
+      "spec": "lucid-spec-pricing.json",
+      "frames": 2,
+      "created": "2026-10-02 13:55 MDT",
+      "renderCheck": "full-page export OK: 2/2 c2 screenshots + 2/2 c1 thumbs (report/c2-board-pricing.png)",
+      "editUrl": "https://lucid.app/lucidchart/3071b809-3d20-47e9-b24c-5e494f58d5b6/edit",
+      "viewUrl": "https://lucid.app/lucidchart/3071b809-3d20-47e9-b24c-5e494f58d5b6/view"
+    }
+  ],
+  "fullSpec": "lucid-spec.json (4 pages, not imported)",
+  "layoutNotes": "lucid-spec-layout.json",
+  "hubEmbed": "_lucid_create_embed on 94e6f74e returned embed id ac7ea9c6-c34a-4321-9897-f87dc1e13f4d, but it is an MCP Apps (chat UI) embed with no Standard Import shape to place it on a board; hub uses <a href> text links + url actions on thumbnails and text instead.",
+  "harvest": "Read stickies from every role=flow board; ignore the hub except for stray stickies (report them).",
+  "capturedCommit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+  "pr": 1,
+  "deployUrl": "https://deploy-preview-1--harvest-for-lucid.netlify.app",
+  "netlifyDeploy": "6abff3efbcf7f40008ae2c98",
+  "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c2-<flow>/",
+  "assetCheck": "22/22 asset-urls.json URLs 200 and byte-identical to annotated PNGs (2026-10-02 ~12:40 MDT)"
+}

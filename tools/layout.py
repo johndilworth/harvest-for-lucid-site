@@ -1,4 +1,4 @@
-from icons import HARVEST_MARK, CHEV
+from icons import HARVEST_MARK
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">')
@@ -20,45 +20,24 @@ def head(title, desc):
 def nav(active):
     def cur(k): return ' aria-current="page"' if k == active else ''
     return f'''<a class="skip" href="#main">Skip to content</a>
-<header class="gnav" id="gnav">
+<header class="pnav" id="pnav">
   <div class="wrap">
-    <a class="wordmark" href="/" aria-label="Lucid">Lucid<span class="dot" aria-hidden="true"></span></a>
-    <ul class="gnav-links">
-      <li><button type="button" aria-haspopup="true">Products {CHEV}</button>
-        <ul class="menu">
-          <li><a href="#"><b>Lucidchart</b><span>Intelligent diagramming</span></a></li>
-          <li><a href="#"><b>Lucidspark</b><span>Virtual whiteboarding</span></a></li>
-          <li class="sep">Lucid Suite add-ons</li>
-          <li><a href="/"><b>Harvest</b><span>Prototype reviews that turn into pull requests (concept)</span></a></li>
-        </ul></li>
-      <li><button type="button">Solutions {CHEV}</button></li>
-      <li><button type="button">Resources {CHEV}</button></li>
-      <li><button type="button">Company {CHEV}</button></li>
-      <li><a href="#">Enterprise</a></li>
-    </ul>
-    <div class="gnav-right">
-      <a class="login" href="#">Log in</a>
-      <a class="btn btn-secondary btn-sm" href="/beta">Contact sales</a>
-      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
-    </div>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<nav class="pnav" aria-label="Harvest">
-  <div class="wrap">
-    <a class="pmark" href="/">{HARVEST_MARK}Harvest <small>for Lucidchart</small></a>
-    <ul>
+    <a class="pmark" href="/">{HARVEST_MARK}Harvest</a>
+    <div class="pnav-menu" id="pnav-menu">
+    <ul class="pnav-links">
       <li><a href="/"{cur('home')}>Overview</a></li>
       <li><a href="/how-it-works"{cur('how')}>How it works</a></li>
       <li><a href="/pricing"{cur('pricing')}>Pricing</a></li>
       <li><a href="/beta"{cur('beta')}>Beta</a></li>
     </ul>
-    <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+    <div class="pnav-right">
+      <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
+    </div>
+    </div>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="pnav-menu"><span></span><span></span><span></span></button>
   </div>
-</nav>'''
-
-def announce():
-    return '''<div class="announce-wrap"><p class="announce">Harvest for Lucidchart is in early development. We're inviting teams to shape it. <a href="/beta">Get on the list &rarr;</a></p></div>'''
+</header>'''
 
 def cta_band(h, btn='Request beta access', sub=None):
     s = f'<p class="lede" style="margin-bottom:28px">{sub}</p>' if sub else ''
@@ -90,6 +69,6 @@ def footer():
 </body>
 </html>'''
 
-def page(title, desc, active, body, announce_bar=True):
-    return (head(title, desc) + '\n<body>\n' + nav(active) + '\n' + (announce() if announce_bar else '') +
+def page(title, desc, active, body):
+    return (head(title, desc) + '\n<body>\n' + nav(active) +
             '\n<main id="main">\n' + body + '\n</main>\n' + footer())
