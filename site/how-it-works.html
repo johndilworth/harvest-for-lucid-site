@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>How Harvest works | Lucid</title>
+<meta name="description" content="Capture, review, harvest and ship: how a Harvest review cycle works.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="gnav" id="gnav">
+  <div class="wrap">
+    <a class="wordmark" href="/" aria-label="Lucid">Lucid<span class="dot" aria-hidden="true"></span></a>
+    <ul class="gnav-links">
+      <li><button type="button" aria-haspopup="true">Products <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button>
+        <ul class="menu">
+          <li><a href="#"><b>Lucidchart</b><span>Intelligent diagramming</span></a></li>
+          <li><a href="#"><b>Lucidspark</b><span>Virtual whiteboarding</span></a></li>
+          <li class="sep">Lucid Suite add-ons</li>
+          <li><a href="/"><b>Harvest</b><span>Prototype reviews that turn into pull requests (concept)</span></a></li>
+        </ul></li>
+      <li><button type="button">Solutions <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
+      <li><button type="button">Resources <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
+      <li><button type="button">Company <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
+      <li><a href="#">Enterprise</a></li>
+    </ul>
+    <div class="gnav-right">
+      <a class="login" href="#">Log in</a>
+      <a class="btn btn-secondary btn-sm" href="/beta">Contact sales</a>
+      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
+    </div>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="pnav" aria-label="Harvest">
+  <div class="wrap">
+    <a class="pmark" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="1.5" y="7" width="13" height="13" rx="1.5" fill="#ff8f8f" transform="rotate(-10 8 13.5)"/><rect x="6.5" y="2.5" width="13" height="13" rx="1.5" fill="#ffe342"/><rect x="11" y="10" width="13.5" height="13.5" rx="1.5" fill="#eb5a00"/><path d="M14.3 16.9l2.6 2.6 4.6-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Harvest <small>for Lucidchart</small></a>
+    <ul>
+      <li><a href="/">Overview</a></li>
+      <li><a href="/how-it-works" aria-current="page">How it works</a></li>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/beta">Beta</a></li>
+    </ul>
+    <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+  </div>
+</nav>
+<div class="announce-wrap"><p class="announce">Harvest for Lucidchart is in early development. We're inviting teams to shape it. <a href="/beta">Get on the list &rarr;</a></p></div>
+<main id="main">
+
+<section class="hero hero-centered" id="top">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h1 class="h-xl h-wide">From prototype to pull request, one review cycle at a time</h1>
+    <p class="lede" style="margin-top:24px">Harvest runs a repeatable loop around a Lucidchart board. Here&rsquo;s what happens in each cycle, using screens from our sample run.</p>
+    <div class="cta-row"><a class="btn btn-primary btn-lg" href="/beta">Join the beta list</a><a class="btn btn-secondary btn-lg" href="#limits">What&rsquo;s not solved yet</a></div>
+  </div>
+</section>
+
+<section class="bg-grey" id="stages" style="padding-top:24px">
+  <div class="wrap">
+    <div class="stage" id="capture"><div class="big">01</div><div>
+      <span class="who ai">Harvest</span><h3>Capture: every screen, every step</h3>
+      <p>You describe your key flows once (start page, the element to click, what to fill in). Harvest clicks through the prototype or staging app at desktop size and screenshots each step with the click drawn in as a large cursor. Each screenshot carries its route, page title, clicked element, commit and deploy URL. Screens are identified by route and title, so you don&rsquo;t add tracking attributes to your app.</p>
+      <figure><img class="shot" src="/img/c4-vendor-detail.webp" width="1440" height="1024" alt="Captured screenshot of a vendor detail screen with a large cursor drawn on the Proceed button"><figcaption>A captured step: vendor detail, with the click on &ldquo;Proceed&rdquo; drawn in.</figcaption></figure>
+    </div></div>
+    <div class="stage" id="review"><div class="big">02</div><div>
+      <span class="who people">Your team</span><h3>Review: stickies and sketches, right on the screen</h3>
+      <p>Harvest builds a Lucidchart board with one page per flow and one large frame per screen, with a margin for notes. Designers, PMs, engineering leads and execs review it together and put stickies inside the frame they&rsquo;re about. They can also draw a mock directly on the screenshot.</p>
+      <div class="legend" aria-label="Sticky legend"><span style="background:var(--sticky-red)">Red = must</span><span style="background:var(--sticky-yellow)">Yellow = try</span><span style="background:var(--sticky-blue)">Blue = maybe</span></div>
+      <figure><img class="shot" src="/img/lucid-c4-vendor-detail.webp" width="888" height="1024" alt="Lucidchart frame for the vendor detail screen, with a cycle-3 before panel and a list of changes in this cycle"><figcaption>A frame from cycle 4 of the sample run, with the previous version and the list of changes above it.</figcaption></figure>
+    </div></div>
+    <div class="stage" id="harvest"><div class="big">03</div><div>
+      <span class="who ai">Harvest</span> <span class="who people">You decide</span><h3>Harvest: collect, map and propose</h3>
+      <p>Harvest reads the board through the Lucid MCP server. Lucidchart knows which items sit inside each frame, so every sticky maps to its exact screen. Priority comes from the sticky color or a leading &ldquo;must / try / maybe&rdquo;. Harvest proposes a change for every item and flags anything ambiguous, such as a sticky outside any frame or one that reverses an earlier decision. You approve the batch.</p>
+      <p style="margin-top:12px">In the sample run, a reviewer drew a toast notification on a screenshot and wrote its copy. That copy shipped as written.</p>
+    </div></div>
+    <div class="stage" id="ship"><div class="big">04</div><div>
+      <span class="who ai">Harvest + coding agent</span><h3>Ship: one PR with a preview and a paper trail</h3>
+      <p>A coding agent implements the approved batch and opens a pull request with a deploy preview. The PR body lists every sticky verbatim next to the change and files touched, plus sections for judgment calls and reversals.</p>
+      <figure><img class="shot" src="/img/c4-vendor-toast.webp" width="1440" height="1024" alt="Vendor list with a lower-left toast reading Helix LLM Gateway was updated"><figcaption>Shipped in PR #3: the reviewer-drawn toast, &ldquo;Helix LLM Gateway was updated.&rdquo;</figcaption></figure>
+    </div></div>
+    <div class="stage" id="repeat"><div class="big">&#8635;</div><div>
+      <span class="who ai">Harvest</span><h3>Then repeat, with before and after</h3>
+      <p>The next cycle captures the PR&rsquo;s preview. Every screen now has its previous version and a &ldquo;Changes in this cycle&rdquo; list beside it, so reviewers can check that their feedback landed before adding more.</p>
+      <figure><img class="shot" src="/img/lucid-c4-vendor-strip.webp" width="1024" height="344" alt="Lucidchart page with four vendor-flow frames in a row, each with a before panel and changes list"><figcaption>The vendor flow in cycle 4: four screens, each with its before panel.</figcaption></figure>
+    </div></div>
+  </div>
+</section>
+
+<section id="needs">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">What you&rsquo;ll need</p><h2 class="h-lg">Fits the tools you already use</h2></div>
+    <div class="cards">
+      <div class="card"><h3>Lucidchart</h3><p>Reviewers work on a normal Lucidchart board. Harvest builds and reads it through the Lucid MCP server.</p></div>
+      <div class="card"><h3>A prototype or staging app</h3><p>Anything reachable by URL. Deploy previews per pull request make the before/after loop work best.</p></div>
+      <div class="card"><h3>A GitHub repository</h3><p>Pull requests carry the change, the preview link and the sticky-to-change table.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-grey" id="limits">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">Being upfront</p><h2 class="h-lg">What we haven&rsquo;t solved yet</h2></div>
+    <div class="faq">
+      <details open><summary>Screenshots need a reachable image host</summary><p>Captured screens are uploaded to an image host so the board can display them. Private hosting options are on the list.</p></details>
+      <details><summary>Lucid comments aren&rsquo;t tied to a shape yet</summary><p>That&rsquo;s why Harvest uses the stickies-inside-frames convention. Comments are still collected and treated as general feedback.</p></details>
+      <details><summary>Sticky authors aren&rsquo;t available to Harvest</summary><p>Harvest knows what each sticky says and where it is, but not who wrote it.</p></details>
+      <details><summary>Reversals still need a person</summary><p>Harvest flags a sticky that undoes an earlier decision, but it won&rsquo;t pick a side. Someone on your team decides.</p></details>
+      <details><summary>Is it cheaper than prompting in a chat?</summary><p>Not proven. We&rsquo;ve measured the Lucid side at roughly 5&ndash;6k tokens per feedback item; the head-to-head comparison is part of the beta.</p></details>
+    </div>
+  </div>
+</section>
+<section class="cta-band" id="cta"><div class="wrap"><div class="inner">
+  <h2>Want to try Harvest on your prototype?</h2>
+  <a class="btn btn-light btn-lg" href="/beta">Request beta access</a>
+</div></div></section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="fcols"><div><h4>Get Started</h4><ul><li><a href="/">Harvest overview</a></li><li><a href="/how-it-works">How it works</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/beta">Join the beta</a></li></ul></div><div><h4>Products</h4><ul><li><a href="#">Lucidchart</a></li><li><a href="#">Lucidspark</a></li><li><a href="/">Harvest (concept)</a></li><li><a href="#">Integrations</a></li></ul></div><div><h4>Solutions</h4><ul><li><a href="#">Product &amp; UX</a></li><li><a href="#">Engineering</a></li><li><a href="#">AI transformation</a></li><li><a href="#">New product development</a></li></ul></div><div><h4>Company</h4><ul><li><a href="#">About us</a></li><li><a href="#">Newsroom</a></li><li><a href="#">Careers</a></li><li><a href="#">Accessibility</a></li></ul></div><div><h4>Resources</h4><ul><li><a href="#">Developers</a></li><li><a href="#">MCP server</a></li><li><a href="#">Security</a></li><li><a href="#">Support</a></li></ul></div></div>
+    <div class="flegal">
+      <a class="wordmark" href="/" aria-label="Lucid" style="font-size:18px">Lucid<span class="dot" aria-hidden="true"></span></a>
+      <a href="#">Privacy</a><a href="#">Legal</a><a href="#">Cookie policy</a>
+      <span class="mock">Concept mockup for pitch purposes.</span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

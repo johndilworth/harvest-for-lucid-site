@@ -1,0 +1,16 @@
+{
+  "name": "harvest-for-lucid-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Concept marketing site for Harvest for Lucidchart (static, site/), plus the Harvest journey tooling (journey/).",
+  "scripts": {
+    "build:pages": "python3 tools/build_pages.py",
+    "serve": "python3 tools/serve.py 8765",
+    "capture": "node journey/capture.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.47",
+    "yaml": "^2.9.1"
+  }
+}

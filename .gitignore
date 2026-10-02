@@ -1,0 +1,4 @@
+node_modules/
+journey/out/
+tools/__pycache__/
+.DS_Store

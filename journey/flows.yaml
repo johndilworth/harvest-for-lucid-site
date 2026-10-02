@@ -1,0 +1,94 @@
+# Harvest review flows for the Harvest for Lucidchart concept site.
+# Each step = one screen (1440x1024 viewport shot). Screens are keyed by route + document.title + h1 + clicked element;
+# there are no data-* / journey ids in the site. Long pages are split into several viewport screens with
+# `scroll: { to: {role, name} }` (element placed `offset` px below the top, below the sticky 60px nav).
+# `prepare` runs before the shot; `action` is the single advancing click that gets the 3x cursor overlay.
+version: 1
+base_url: https://harvest-for-lucid.netlify.app
+viewport: { width: 1440, height: 1024 }
+flows:
+  - key: home
+    name: Home page, top to bottom (viewport screens)
+    start_url: /
+    steps:
+      - key: home-01-hero
+        expect: { route: /, h1: Turn every sticky note into a pull request }
+      - key: home-02-problem
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "Prototyping with AI shouldn’t be a one-person chat" }, offset: 140 }
+      - key: home-03-how
+        expect: { route: / }
+        scroll: { to: { role: heading, name: Capture. Review. Harvest. Ship. }, offset: 140 }
+      - key: home-04-benefits
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "Design with your whole team, not just a chat window" }, offset: 140 }
+      - key: home-05-before-after
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "See every cycle, side by side" }, offset: 140 }
+      - key: home-06-paper-trail
+        expect: { route: / }
+        scroll: { to: { role: heading, name: A paper trail beside every pull request }, offset: 140 }
+      - key: home-07-results
+        expect: { route: / }
+        scroll: { to: { role: heading, name: Three review cycles in one evening }, offset: 140 }
+      - key: home-08-cost
+        expect: { route: / }
+        scroll: { to: { role: heading, name: Honest numbers on what a cycle costs }, offset: 140 }
+      - key: home-09-compare
+        expect: { route: / }
+        scroll: { to: { role: heading, name: Where Harvest fits }, offset: 140 }
+      - key: home-10-suite
+        expect: { route: / }
+        scroll: { to: { role: heading, name: Built on the Lucidchart your team already uses }, offset: 200 }
+      - key: home-11-cta-footer
+        expect: { route: / }
+        scroll: { bottom: true }
+  - key: beta-signup
+    name: Home hero CTA > /beta > filled form > success
+    start_url: /
+    steps:
+      - key: beta-01-home-cta
+        expect: { route: /, h1: Turn every sticky note into a pull request }
+        action: { click: { role: link, name: Get early access } }
+      - key: beta-02-form
+        expect: { route: /beta, h1: Join the Harvest beta }
+      - key: beta-03-form-filled
+        expect: { route: /beta, h1: Join the Harvest beta }
+        prepare:
+          - { fill: { role: textbox, name: Full name }, value: Jordan Lee }
+          - { fill: { role: textbox, name: Work email }, value: jordan@example.com }
+          - { fill: { role: textbox, name: Company }, value: Example Co }
+          - { select: { role: combobox, name: Your role }, value: Product manager }
+          - { select: { role: combobox, name: How many reviewers would join a cycle? }, value: 3–5 }
+          - { fill: { role: textbox, name: What would you review first? }, value: Onboarding flow of our staging app }
+          - { check: { role: checkbox, name: My team uses Lucidchart today } }
+        action: { click: { role: button, name: Join the beta waitlist } }
+      - key: beta-04-success
+        expect: { route: /beta, h1: "You’re on the beta list" }
+  - key: how-it-works
+    name: How it works page (viewport screens)
+    start_url: /how-it-works
+    steps:
+      - key: how-01-top
+        expect: { route: /how-it-works, h1: "From prototype to pull request, one review cycle at a time" }
+      - key: how-02-review
+        expect: { route: /how-it-works }
+        scroll: { to: { role: heading, name: "Review: stickies and sketches, right on the screen" }, offset: 120 }
+      - key: how-03-harvest-ship
+        expect: { route: /how-it-works }
+        scroll: { to: { role: heading, name: "Harvest: collect, map and propose" }, offset: 120 }
+      - key: how-04-repeat
+        expect: { route: /how-it-works }
+        scroll: { to: { role: heading, name: "Then repeat, with before and after" }, offset: 120 }
+      - key: how-05-limits
+        expect: { route: /how-it-works }
+        scroll: { bottom: true }
+  - key: pricing
+    name: Pricing page
+    start_url: /pricing
+    steps:
+      - key: pricing-01-plans
+        expect: { route: /pricing, h1: "Pricing: coming soon" }
+      - key: pricing-02-faq
+        expect: { route: /pricing }
+        scroll: { bottom: true }
