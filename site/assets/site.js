@@ -1,10 +1,14 @@
 // Harvest concept site: mobile menu, before/after tabs, non-submitting beta form.
 (function () {
-  var nav = document.getElementById('gnav');
+  var nav = document.getElementById('pnav');
   var burger = document.querySelector('.burger');
   if (burger) burger.addEventListener('click', function () {
     var open = nav.classList.toggle('open');
     burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && nav && nav.classList.contains('open')) { burger.click(); burger.focus() }
   });
 
   document.querySelectorAll('[data-tabs]').forEach(function (root) {

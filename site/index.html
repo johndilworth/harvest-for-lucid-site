@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Harvest for Lucidchart | Lucid</title>
+<title>Harvest | Lucid</title>
 <meta name="description" content="Turn prototype reviews in Lucidchart into pull requests with a paper trail.">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,56 +12,35 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="gnav" id="gnav">
+<header class="pnav" id="pnav">
   <div class="wrap">
-    <a class="wordmark" href="/" aria-label="Lucid">Lucid<span class="dot" aria-hidden="true"></span></a>
-    <ul class="gnav-links">
-      <li><button type="button" aria-haspopup="true">Products <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button>
-        <ul class="menu">
-          <li><a href="#"><b>Lucidchart</b><span>Intelligent diagramming</span></a></li>
-          <li><a href="#"><b>Lucidspark</b><span>Virtual whiteboarding</span></a></li>
-          <li class="sep">Lucid Suite add-ons</li>
-          <li><a href="/"><b>Harvest</b><span>Prototype reviews that turn into pull requests (concept)</span></a></li>
-        </ul></li>
-      <li><button type="button">Solutions <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><button type="button">Resources <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><button type="button">Company <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button></li>
-      <li><a href="#">Enterprise</a></li>
-    </ul>
-    <div class="gnav-right">
-      <a class="login" href="#">Log in</a>
-      <a class="btn btn-secondary btn-sm" href="/beta">Contact sales</a>
-      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
-    </div>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<nav class="pnav" aria-label="Harvest">
-  <div class="wrap">
-    <a class="pmark" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="1.5" y="7" width="13" height="13" rx="1.5" fill="#ff8f8f" transform="rotate(-10 8 13.5)"/><rect x="6.5" y="2.5" width="13" height="13" rx="1.5" fill="#ffe342"/><rect x="11" y="10" width="13.5" height="13.5" rx="1.5" fill="#eb5a00"/><path d="M14.3 16.9l2.6 2.6 4.6-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Harvest <small>for Lucidchart</small></a>
-    <ul>
+    <a class="pmark" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="1.5" y="7" width="13" height="13" rx="1.5" fill="#ff8f8f" transform="rotate(-10 8 13.5)"/><rect x="6.5" y="2.5" width="13" height="13" rx="1.5" fill="#ffe342"/><rect x="11" y="10" width="13.5" height="13.5" rx="1.5" fill="#eb5a00"/><path d="M14.3 16.9l2.6 2.6 4.6-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Harvest</a>
+    <div class="pnav-menu" id="pnav-menu">
+    <ul class="pnav-links">
       <li><a href="/" aria-current="page">Overview</a></li>
       <li><a href="/how-it-works">How it works</a></li>
       <li><a href="/pricing">Pricing</a></li>
       <li><a href="/beta">Beta</a></li>
     </ul>
-    <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+    <div class="pnav-right">
+      <a class="pright" href="/how-it-works">Watch the walkthrough</a>
+      <a class="btn btn-primary btn-sm" href="/beta">Join the beta</a>
+    </div>
+    </div>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="pnav-menu"><span></span><span></span><span></span></button>
   </div>
-</nav>
-<div class="announce-wrap"><p class="announce">Harvest for Lucidchart is in early development. We're inviting teams to shape it. <a href="/beta">Get on the list &rarr;</a></p></div>
+</header>
 <main id="main">
 
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Harvest for Lucidchart &middot; Lucid Suite add-on (concept)</p>
       <h1 class="h-xl">Turn every sticky note into a pull request</h1>
       <p class="lede">Harvest captures your prototype or staging app into Lucidchart, one frame per screen. Your whole team reviews it together with color-coded stickies and quick sketches. Then a coding agent ships the feedback as a pull request with a live preview, and every sticky is linked to the change it caused.</p>
       <div class="cta-row">
         <a class="btn btn-primary btn-lg" href="/beta">Get early access</a>
         <a class="btn btn-secondary btn-lg" href="/how-it-works">See how it works</a>
       </div>
-      <p class="fine">Harvest is a concept in development. Pricing: coming soon.</p>
     </div>
     <div>
       <div class="canvas" role="img" aria-label="A Lucidchart frame holding a prototype screenshot, with a red 'must' sticky and a yellow 'try' sticky, and the pull request that implemented them">
@@ -79,7 +58,7 @@
 
 <section class="bg-orange" id="problem">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">The problem</p><h2 class="h-lg">Prototyping with AI shouldn&rsquo;t be a one-person chat</h2>
+    <div class="sec-head"><h2 class="h-lg">Prototyping with AI shouldn&rsquo;t be a one-person chat</h2>
       <p class="lede">AI makes prototypes fast. But the review still runs through one person typing into one chat window, and everyone else&rsquo;s feedback gets retyped, summarized or lost.</p></div>
     <div class="cards">
       <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#cc4e00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="16" r="6"/><circle cx="31" cy="16" r="6"/><path d="M4 38c0-7 5-11 11-11s11 4 11 11M22 38c0-7 4-11 9-11s10 4 10 11"/></svg><h3>One voice in the loop</h3><p>PMs, designers, engineering leads and execs have opinions that matter, but their feedback lands in Slack threads and meeting notes the agent never sees.</p></div>
@@ -91,7 +70,7 @@
 
 <section class="bg-teal" id="how">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">How it works</p><h2 class="h-lg">Capture. Review. Harvest. Ship.</h2>
+    <div class="sec-head"><h2 class="h-lg">Capture. Review. Harvest. Ship.</h2>
       <p class="lede">Each review cycle runs the same loop. People do the reviewing and deciding; Harvest does the rest.</p></div>
     <div class="steps">
       <div class="step"><svg viewBox="0 0 56 56" aria-hidden="true"><rect x="4" y="9" width="48" height="36" rx="3" fill="#edf5ff" stroke="#1071e5" stroke-width="2"/><rect x="4" y="9" width="48" height="7" rx="3" fill="#1071e5"/><rect x="10" y="22" width="20" height="4" fill="#b5d6ff"/><rect x="10" y="30" width="30" height="3" fill="#cfe4ff"/><rect x="10" y="36" width="12" height="5" fill="#282c33"/><path d="M19 37l0 14 3.6-3.4 2.6 5.6 2.4-1.1-2.6-5.5 5-.3z" fill="#fff" stroke="#282c33" stroke-width="1.6" stroke-linejoin="round"/></svg><div class="num">01</div><h3>Capture</h3><p>Harvest clicks through your configured flows in a prototype or staging app and builds a Lucidchart board with one frame per screen.</p></div>
@@ -105,7 +84,7 @@
 
 <section id="benefits">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Why Harvest</p><h2 class="h-lg">Design with your whole team, not just a chat window</h2></div>
+    <div class="sec-head"><h2 class="h-lg">Design with your whole team, not just a chat window</h2></div>
     <div class="cards">
       <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#1071e5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="16" r="6"/><circle cx="31" cy="16" r="6"/><path d="M4 38c0-7 5-11 11-11s11 4 11 11M22 38c0-7 4-11 9-11s10 4 10 11"/></svg><h3>Multi-party, collaborative design</h3><p>Everyone reviews the same board in Lucidchart, and each cycle brings in input from every reviewer at once.</p><p class="quote">&ldquo;It evolves the prototype collaboratively instead of one person typing in a chat.&rdquo;</p></div>
       <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#1071e5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="32" height="24" rx="2"/><path d="M14 30v8l8-8"/><path d="M14 15h16M14 21h10"/></svg><h3>Feedback in context</h3><p>Reviewers point at the screen instead of describing it. Stickies sit inside the frame they&rsquo;re about, and a drawn rectangle says more than a paragraph of prompt.</p></div>
@@ -119,7 +98,7 @@
 
 <section class="bg-grey" id="evolution">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Before and after</p><h2 class="h-lg">See every cycle, side by side</h2>
+    <div class="sec-head"><h2 class="h-lg">See every cycle, side by side</h2>
       <p class="lede">The next cycle&rsquo;s board shows each screen next to its previous version, with a short list of what changed. Here&rsquo;s how the sample app evolved.</p></div>
     <div class="ba" data-tabs>
       <div class="ba-tabs" role="tablist" aria-label="Before and after examples">
@@ -149,7 +128,7 @@
 
 <section id="paper-trail">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Paper trail</p><h2 class="h-lg">A paper trail beside every pull request</h2>
+    <div class="sec-head"><h2 class="h-lg">A paper trail beside every pull request</h2>
       <p class="lede">Each PR body maps every sticky, verbatim, to its screen, the change and the files touched. Judgment calls and reversals get their own section marked &ldquo;please confirm&rdquo;.</p></div>
     <div class="table-scroll">
       <table class="trail">
@@ -163,7 +142,7 @@
 
 <section class="bg-indigo" id="results">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Real results</p><h2 class="h-lg">Three review cycles in one evening</h2>
+    <div class="sec-head"><h2 class="h-lg">Three review cycles in one evening</h2>
       <p class="lede">We ran Harvest on a small two-flow sample app (signup and vendor approval). Cycle 1 was captured at 10:56 PM MT and the third PR opened at 12:42 AM MT.</p></div>
     <div class="stats">
       <div class="stat"><div class="n">3</div><div class="l">review cycles</div></div>
@@ -177,7 +156,7 @@
 
 <section id="cost">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Cost and efficiency</p><h2 class="h-lg">Honest numbers on what a cycle costs</h2>
+    <div class="sec-head"><h2 class="h-lg">Honest numbers on what a cycle costs</h2>
       <p class="lede">AI tokens are the running cost of Harvest, so we measured them. Here is what we know and what we don&rsquo;t yet.</p></div>
     <div class="cost">
       <div class="card"><span class="label m">Measured</span><div class="n">~5&ndash;6k</div><p><b>tokens per feedback item</b> for the Lucid side of a cycle (building the board, reading it back, exporting), from live payloads in cycle 3.</p></div>
@@ -190,11 +169,11 @@
 
 <section class="bg-grey" id="compare">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Compare</p><h2 class="h-lg">Where Harvest fits</h2>
+    <div class="sec-head"><h2 class="h-lg">Where Harvest fits</h2>
       <p class="lede">Design-file comments and chat-based prototyping are both great at what they do. Harvest is built for reviewing a running prototype with a group, and getting the result back into code.</p></div>
     <div class="table-scroll">
       <table class="compare">
-        <thead><tr><th scope="col"></th><th scope="col">Chat-only AI prototyping</th><th scope="col">Comments on design files (e.g. Figma)</th><th scope="col" class="us">Harvest for Lucidchart</th></tr></thead>
+        <thead><tr><th scope="col"></th><th scope="col">Chat-only AI prototyping</th><th scope="col">Comments on design files (e.g. Figma)</th><th scope="col" class="us">Harvest</th></tr></thead>
         <tbody>
           <tr><th scope="row">What reviewers look at</th><td>Whatever the person typing describes</td><td>Static design frames</td><td class="us">Screenshots of the running app, every step of each flow</td></tr>
           <tr><th scope="row">Who contributes</th><td>Usually one person</td><td>Anyone with access to the file</td><td class="us">Everyone on the board, in the same cycle</td></tr>
@@ -210,7 +189,6 @@
 <section id="suite">
   <div class="wrap split">
     <div>
-      <p class="eyebrow">Lucid Visual Collaboration Suite</p>
       <h2 class="h-lg">Built on the Lucidchart your team already uses</h2>
       <p class="lede">Harvest works with Lucidchart frames, sticky notes and shapes, and reads boards through the Lucid MCP server. There&rsquo;s nothing new for reviewers to learn and no tracking code to add to your app.</p>
       <ul>

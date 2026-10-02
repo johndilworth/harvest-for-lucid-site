@@ -18,14 +18,12 @@ BODY = f'''
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Harvest for Lucidchart &middot; Lucid Suite add-on (concept)</p>
       <h1 class="h-xl">Turn every sticky note into a pull request</h1>
       <p class="lede">Harvest captures your prototype or staging app into Lucidchart, one frame per screen. Your whole team reviews it together with color-coded stickies and quick sketches. Then a coding agent ships the feedback as a pull request with a live preview, and every sticky is linked to the change it caused.</p>
       <div class="cta-row">
         <a class="btn btn-primary btn-lg" href="/beta">Get early access</a>
         <a class="btn btn-secondary btn-lg" href="/how-it-works">See how it works</a>
       </div>
-      <p class="fine">Harvest is a concept in development. Pricing: coming soon.</p>
     </div>
     <div>
       <div class="canvas" role="img" aria-label="A Lucidchart frame holding a prototype screenshot, with a red 'must' sticky and a yellow 'try' sticky, and the pull request that implemented them">
@@ -43,7 +41,7 @@ BODY = f'''
 
 <section class="bg-orange" id="problem">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">The problem</p><h2 class="h-lg">Prototyping with AI shouldn&rsquo;t be a one-person chat</h2>
+    <div class="sec-head"><h2 class="h-lg">Prototyping with AI shouldn&rsquo;t be a one-person chat</h2>
       <p class="lede">AI makes prototypes fast. But the review still runs through one person typing into one chat window, and everyone else&rsquo;s feedback gets retyped, summarized or lost.</p></div>
     <div class="cards">
       <div class="card">{ico('people', '#cc4e00')}<h3>One voice in the loop</h3><p>PMs, designers, engineering leads and execs have opinions that matter, but their feedback lands in Slack threads and meeting notes the agent never sees.</p></div>
@@ -55,7 +53,7 @@ BODY = f'''
 
 <section class="bg-teal" id="how">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">How it works</p><h2 class="h-lg">Capture. Review. Harvest. Ship.</h2>
+    <div class="sec-head"><h2 class="h-lg">Capture. Review. Harvest. Ship.</h2>
       <p class="lede">Each review cycle runs the same loop. People do the reviewing and deciding; Harvest does the rest.</p></div>
     <div class="steps">
       <div class="step">{CAPTURE}<div class="num">01</div><h3>Capture</h3><p>Harvest clicks through your configured flows in a prototype or staging app and builds a Lucidchart board with one frame per screen.</p></div>
@@ -69,7 +67,7 @@ BODY = f'''
 
 <section id="benefits">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Why Harvest</p><h2 class="h-lg">Design with your whole team, not just a chat window</h2></div>
+    <div class="sec-head"><h2 class="h-lg">Design with your whole team, not just a chat window</h2></div>
     <div class="cards">
       <div class="card">{ico('people', '#1071e5')}<h3>Multi-party, collaborative design</h3><p>Everyone reviews the same board in Lucidchart, and each cycle brings in input from every reviewer at once.</p><p class="quote">&ldquo;It evolves the prototype collaboratively instead of one person typing in a chat.&rdquo;</p></div>
       <div class="card">{ico('pin', '#1071e5')}<h3>Feedback in context</h3><p>Reviewers point at the screen instead of describing it. Stickies sit inside the frame they&rsquo;re about, and a drawn rectangle says more than a paragraph of prompt.</p></div>
@@ -83,7 +81,7 @@ BODY = f'''
 
 <section class="bg-grey" id="evolution">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Before and after</p><h2 class="h-lg">See every cycle, side by side</h2>
+    <div class="sec-head"><h2 class="h-lg">See every cycle, side by side</h2>
       <p class="lede">The next cycle&rsquo;s board shows each screen next to its previous version, with a short list of what changed. Here&rsquo;s how the sample app evolved.</p></div>
     <div class="ba" data-tabs>
       <div class="ba-tabs" role="tablist" aria-label="Before and after examples">
@@ -113,7 +111,7 @@ BODY = f'''
 
 <section id="paper-trail">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Paper trail</p><h2 class="h-lg">A paper trail beside every pull request</h2>
+    <div class="sec-head"><h2 class="h-lg">A paper trail beside every pull request</h2>
       <p class="lede">Each PR body maps every sticky, verbatim, to its screen, the change and the files touched. Judgment calls and reversals get their own section marked &ldquo;please confirm&rdquo;.</p></div>
     <div class="table-scroll">
       <table class="trail">
@@ -127,7 +125,7 @@ BODY = f'''
 
 <section class="bg-indigo" id="results">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Real results</p><h2 class="h-lg">Three review cycles in one evening</h2>
+    <div class="sec-head"><h2 class="h-lg">Three review cycles in one evening</h2>
       <p class="lede">We ran Harvest on a small two-flow sample app (signup and vendor approval). Cycle 1 was captured at 10:56 PM MT and the third PR opened at 12:42 AM MT.</p></div>
     <div class="stats">
       <div class="stat"><div class="n">3</div><div class="l">review cycles</div></div>
@@ -141,7 +139,7 @@ BODY = f'''
 
 <section id="cost">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Cost and efficiency</p><h2 class="h-lg">Honest numbers on what a cycle costs</h2>
+    <div class="sec-head"><h2 class="h-lg">Honest numbers on what a cycle costs</h2>
       <p class="lede">AI tokens are the running cost of Harvest, so we measured them. Here is what we know and what we don&rsquo;t yet.</p></div>
     <div class="cost">
       <div class="card"><span class="label m">Measured</span><div class="n">~5&ndash;6k</div><p><b>tokens per feedback item</b> for the Lucid side of a cycle (building the board, reading it back, exporting), from live payloads in cycle 3.</p></div>
@@ -154,11 +152,11 @@ BODY = f'''
 
 <section class="bg-grey" id="compare">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Compare</p><h2 class="h-lg">Where Harvest fits</h2>
+    <div class="sec-head"><h2 class="h-lg">Where Harvest fits</h2>
       <p class="lede">Design-file comments and chat-based prototyping are both great at what they do. Harvest is built for reviewing a running prototype with a group, and getting the result back into code.</p></div>
     <div class="table-scroll">
       <table class="compare">
-        <thead><tr><th scope="col"></th><th scope="col">Chat-only AI prototyping</th><th scope="col">Comments on design files (e.g. Figma)</th><th scope="col" class="us">Harvest for Lucidchart</th></tr></thead>
+        <thead><tr><th scope="col"></th><th scope="col">Chat-only AI prototyping</th><th scope="col">Comments on design files (e.g. Figma)</th><th scope="col" class="us">Harvest</th></tr></thead>
         <tbody>
           <tr><th scope="row">What reviewers look at</th><td>Whatever the person typing describes</td><td>Static design frames</td><td class="us">Screenshots of the running app, every step of each flow</td></tr>
           <tr><th scope="row">Who contributes</th><td>Usually one person</td><td>Anyone with access to the file</td><td class="us">Everyone on the board, in the same cycle</td></tr>
@@ -174,7 +172,6 @@ BODY = f'''
 <section id="suite">
   <div class="wrap split">
     <div>
-      <p class="eyebrow">Lucid Visual Collaboration Suite</p>
       <h2 class="h-lg">Built on the Lucidchart your team already uses</h2>
       <p class="lede">Harvest works with Lucidchart frames, sticky notes and shapes, and reads boards through the Lucid MCP server. There&rsquo;s nothing new for reviewers to learn and no tracking code to add to your app.</p>
       <ul>

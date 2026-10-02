@@ -4,7 +4,6 @@ from layout import cta_band
 HOW = '''
 <section class="hero hero-centered" id="top">
   <div class="wrap">
-    <p class="eyebrow">How it works</p>
     <h1 class="h-xl h-wide">From prototype to pull request, one review cycle at a time</h1>
     <p class="lede" style="margin-top:24px">Harvest runs a repeatable loop around a Lucidchart board. Here&rsquo;s what happens in each cycle, using screens from our sample run.</p>
     <div class="cta-row"><a class="btn btn-primary btn-lg" href="/beta">Join the beta list</a><a class="btn btn-secondary btn-lg" href="#limits">What&rsquo;s not solved yet</a></div>
@@ -44,7 +43,7 @@ HOW = '''
 
 <section id="needs">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">What you&rsquo;ll need</p><h2 class="h-lg">Fits the tools you already use</h2></div>
+    <div class="sec-head"><h2 class="h-lg">Fits the tools you already use</h2></div>
     <div class="cards">
       <div class="card"><h3>Lucidchart</h3><p>Reviewers work on a normal Lucidchart board. Harvest builds and reads it through the Lucid MCP server.</p></div>
       <div class="card"><h3>A prototype or staging app</h3><p>Anything reachable by URL. Deploy previews per pull request make the before/after loop work best.</p></div>
@@ -55,7 +54,7 @@ HOW = '''
 
 <section class="bg-grey" id="limits">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Being upfront</p><h2 class="h-lg">What we haven&rsquo;t solved yet</h2></div>
+    <div class="sec-head"><h2 class="h-lg">What we haven&rsquo;t solved yet</h2></div>
     <div class="faq">
       <details open><summary>Screenshots need a reachable image host</summary><p>Captured screens are uploaded to an image host so the board can display them. Private hosting options are on the list.</p></details>
       <details><summary>Lucid comments aren&rsquo;t tied to a shape yet</summary><p>That&rsquo;s why Harvest uses the stickies-inside-frames convention. Comments are still collected and treated as general feedback.</p></details>
@@ -70,9 +69,8 @@ HOW = '''
 PRICING = '''
 <section class="hero hero-centered" id="top">
   <div class="wrap">
-    <p class="eyebrow">Pricing</p>
     <h1 class="h-xl h-wide">Pricing: coming soon</h1>
-    <p class="lede" style="margin-top:24px">Harvest for Lucidchart is a concept in development. We&rsquo;ll share plans and pricing after the beta, once we&rsquo;ve measured what real review cycles cost.</p>
+    <p class="lede" style="margin-top:24px">Harvest is a concept in development. We&rsquo;ll share plans and pricing after the beta, once we&rsquo;ve measured what real review cycles cost.</p>
   </div>
 </section>
 
@@ -110,7 +108,6 @@ BETA = '''
 <section class="hero pre-success" id="top">
   <div class="wrap form-wrap">
     <div>
-      <p class="eyebrow">Harvest beta</p>
       <h1 class="h-xl">Join the Harvest beta</h1>
       <p class="lede" style="margin-top:20px">We&rsquo;re looking for product teams who want to review a prototype together in Lucidchart and ship the feedback as pull requests.</p>
       <h2 class="h-md" style="margin-top:40px">What to expect</h2>

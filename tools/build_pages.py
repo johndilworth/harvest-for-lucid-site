@@ -7,10 +7,10 @@ from page_home import BODY as HOME
 from page_other import HOW, PRICING, BETA
 OUT = os.path.join(os.path.dirname(__file__), '..', 'site')
 pages = {
-  'index.html': page('Harvest for Lucidchart | Lucid', 'Turn prototype reviews in Lucidchart into pull requests with a paper trail.', 'home', HOME),
+  'index.html': page('Harvest | Lucid', 'Turn prototype reviews in Lucidchart into pull requests with a paper trail.', 'home', HOME),
   'how-it-works.html': page('How Harvest works | Lucid', 'Capture, review, harvest and ship: how a Harvest review cycle works.', 'how', HOW),
   'pricing.html': page('Harvest pricing | Lucid', 'Harvest pricing: coming soon.', 'pricing', PRICING),
-  'beta.html': page('Join the Harvest beta | Lucid', 'Join the Harvest for Lucidchart beta list.', 'beta', BETA, announce_bar=False),
+  'beta.html': page('Join the Harvest beta | Lucid', 'Join the Harvest beta list.', 'beta', BETA),
 }
 for name, html in pages.items():
     open(os.path.join(OUT, name), 'w').write(html)
