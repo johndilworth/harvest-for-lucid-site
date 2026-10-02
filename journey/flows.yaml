@@ -3,6 +3,9 @@
 # there are no data-* / journey ids in the site. Long pages are split into several viewport screens with
 # `scroll: { to: {role, name} }` (element placed `offset` px below the top, below the sticky 60px nav).
 # `prepare` runs before the shot; `action` is the single advancing click that gets the 3x cursor overlay.
+# Cycle 2 (PR #1): the Lucid global bar and the announcement banner are gone; the only header is the sticky 60px Harvest
+# nav (Overview / How it works / Pricing / Beta + "Join the beta" button). Page title on / is now "Harvest | Lucid".
+# The beta flow still enters via the hero link "Get early access" (the nav "Join the beta" goes to the same /beta).
 version: 1
 base_url: https://harvest-for-lucid.netlify.app
 viewport: { width: 1440, height: 1024 }
