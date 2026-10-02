@@ -28,6 +28,7 @@ ap.add_argument('--frame-type', default='sparkFrame')
 ap.add_argument('--manifest', default=os.path.join(HERE, '..', 'manifest.json'))
 ap.add_argument('--before-urls', default=None); ap.add_argument('--changes', default=None)
 ap.add_argument('--title-suffix', default='')
+ap.add_argument('--doc-title', default='Harvest site', help='prefix of the big page title (was hard-coded "Northwind AI Ops · Design loop")')
 ap.add_argument('--page-label', action='append', default=[], help='flow=Label for the Lucid page title (repeatable)')
 ap.add_argument('--out', default=os.path.join(os.environ.get('LUCID_OUT', '/tmp'), 'spec-cycle.json'))
 a = ap.parse_args()
@@ -57,7 +58,7 @@ def header_shapes(pid, y0, subtitle):
     """Doc title + legend block placed above y0 (top of first frame row)."""
     return [
         {'id': f'doc-title-{pid}', 'type': 'text', 'boundingBox': {'x': 0, 'y': y0 - 860, 'w': 4400, 'h': 200},
-         'text': f'<p style="font-size:40pt"><b>Northwind AI Ops · Design loop · Cycle {CYCLE} review{esc(a.title_suffix)}</b><br>'
+         'text': f'<p style="font-size:40pt"><b>{esc(a.doc_title)} · Cycle {CYCLE} review{esc(a.title_suffix)}</b><br>'
                  f'<span style="font-size:20pt">{esc(subtitle)}</span></p>'},
         {'id': f'legend-box-{pid}', 'type': 'rectangle', 'boundingBox': {'x': 0, 'y': y0 - 560, 'w': 2600, 'h': 360},
          'style': {'fill': {'type': 'color', 'color': '#F4F6FB'}, 'stroke': {'color': '#3A4FD8', 'width': 3, 'style': 'solid'}},
@@ -113,7 +114,11 @@ def flow_shapes(flow, y0, shapes, lines):
             ent = e['entry']
             act0 = f'  —  reached from {ent["fromRoute"]} via {ent["click"]["role"]} “{esc(ent["click"]["name"])}”'
         else: act0 = ''
-        act = (f'  —  click: {e["clicked"]["role"]} “{esc(e["clicked"]["name"])}”' if e.get('clicked') else '  —  end state')
+        sc = e.get('scrolled') or {}
+        scr = (f'  —  scrolled to {sc["to"]["role"]} “{esc(sc["to"]["name"])}” (y={e.get("scrollY")})' if sc.get('to')
+               else f'  —  scrolled to page bottom (y={e.get("scrollY")})' if sc.get('bottom') else '')
+        act = (f'  —  click: {e["clicked"]["role"]} “{esc(e["clicked"]["name"])}”' if e.get('clicked') else ('' if scr else '  —  no click'))
+        act = scr + act
         # cycle 3: 22pt/16pt in a 200px box (was 30pt/22pt in 150px) - long stepKey+route lines wrapped and the
         # last line was hidden behind the screenshot (seen on signup-04-workspace-created).
         shapes.append({'id': f'hdr-{e["stepKey"]}', 'type': 'text', 'boundingBox': {'x': fx + MX, 'y': fy + 40, 'w': IW, 'h': 200},

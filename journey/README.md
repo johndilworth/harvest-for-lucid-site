@@ -101,3 +101,29 @@ python3 journey/lucid/build_evolution.py   # -> journey/evolution/lucid-spec.jso
 - `lucid/build_evolution.py` reuses the hosted shots (`design-loop-c1r/c2/c3/c4-<flow>/` via `cycles/<N>/asset-urls.json`);
   a screen missing from a cycle gets a dashed "Not captured" box. Column headers: cycle number + feedback items applied
   by the PR that produced that build (0 / 11 / 8 / 13). Keep header lines ≤ ~36 chars at 20pt (longer lines wrapped and clipped).
+
+## harvest-for-lucid-site (concept site) additions
+Copied from design-loop-sample-prototype at cycle 4. Changes for a long-scrolling marketing site:
+- `flows.yaml` flows: `home` (11 viewport screens of `/`), `beta-signup` (home CTA > /beta > filled form > success),
+  `how-it-works` (5), `pricing` (2). No `data-*` ids: screens keyed by route + title + h1 + clicked element.
+- `capture.mjs`: step `scroll: { to: {role, name}, offset }` (element placed `offset` px below the viewport top) or
+  `scroll: { bottom: true }`; other steps are reset to the top. `prepare` supports `{ select: {role,name}, value }`.
+  Manifest entries record `scrolled` + `scrollY`. Waits for in-flight images before each shot. `h1` = first *visible*
+  h1 (the /beta success state swaps sections). Also blocks Netlify's public "Powered by Netlify" HUD
+  (`/.netlify/scripts/hud`) in addition to the deploy-preview drawer.
+- `lucid/build_spec.py`: `--doc-title` (was hard-coded "Northwind AI Ops · Design loop"); headers say
+  "scrolled to heading “…” (y=N)" / "scrolled to page bottom" / "no click".
+
+Cycle 1 (2026-10-02, captured from production @ 8cec138):
+```bash
+COMMIT_SHA=$(git rev-parse HEAD) node journey/capture.mjs --cycle 1 --base-url https://harvest-for-lucid.netlify.app
+python3 journey/annotate.py --cycle 1
+# copy out/cycle-1/<flow>/annotated/*.png to /workspace/journey-assets-site/harvest-site-c1-<flow>/ and deploy that site
+python3 journey/lucid/build_spec.py --cycle 1 --asset-prefix harvest-site-c1 --layout pages \
+  --flows home,beta-signup,how-it-works,pricing --doc-title 'Harvest for Lucidchart concept site' \
+  --page-label 'home=Home (/)' --page-label 'beta-signup=Beta signup (/beta)' \
+  --page-label 'how-it-works=How it works (/how-it-works)' --page-label 'pricing=Pricing (/pricing)' \
+  --out journey/cycles/1/lucid-spec.json
+```
+Lucid doc 58ff5647-5bbd-472f-b880-d91bec0f4005 "Harvest site — Cycle 1 review": one create call (0 preflight errors),
+spec skill read once, no validate call, no scratch docs. See `cycles/1/lucid-doc.json`.

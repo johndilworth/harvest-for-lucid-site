@@ -44,7 +44,7 @@ async function screenInfo(page) {
     const vis = (el) => { const r = el.getBoundingClientRect(); const s = getComputedStyle(el); return r.width > 0 && r.height > 0 && s.visibility !== 'hidden' && s.display !== 'none' }
     const texts = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6,label,legend,th,button,a,[role=radio]')]
       .filter(vis).map((e) => `${e.tagName.toLowerCase()}:${e.innerText.trim().replace(/\s+/g, ' ')}`).filter((t) => !t.endsWith(':'))
-    const h1 = document.querySelector('h1')
+    const h1 = [...document.querySelectorAll('h1')].find(vis) || null  // first VISIBLE h1 (pages may swap sections, e.g. /beta success)
     return { title: document.title, h1: h1 ? h1.innerText.trim() : null, texts }
   })
 }
@@ -76,7 +76,7 @@ for (const flow of flows) {
   await context.addInitScript(() => { window.__DESIGN_LOOP_CAPTURE__ = true })
   // Deploy previews inject the Netlify collaboration drawer ("Collaborate on this Deploy Preview") via
   // /.netlify/scripts/cdp; it appears intermittently over the screen, so block it for clean captures.
-  await context.route(/\/\.netlify\/scripts\/cdp/, (r) => r.abort())
+  await context.route(/\/\.netlify\/scripts\/(cdp|hud)/, (r) => r.abort())  // harvest-site: also the public "Powered by Netlify" HUD
   const page = await context.newPage()
   await page.goto(baseUrl + flow.start_url, { waitUntil: 'networkidle' })
   let entry = null

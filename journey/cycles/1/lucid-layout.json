@@ -1,0 +1,25 @@
+{
+  "layout": "pages",
+  "frame": {
+    "w": 2240,
+    "h": 1684,
+    "margin_x": 400,
+    "margin_top": 260,
+    "margin_bottom": 400,
+    "gap": 480,
+    "row_gap": 1600
+  },
+  "pages": [
+    "1. Home (/) \u00b7 cycle 1",
+    "2. Beta signup (/beta) \u00b7 cycle 1",
+    "3. How it works (/how-it-works) \u00b7 cycle 1",
+    "4. Pricing (/pricing) \u00b7 cycle 1"
+  ],
+  "framesPerFlow": {
+    "home": 11,
+    "beta-signup": 4,
+    "how-it-works": 5,
+    "pricing": 2
+  },
+  "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c1-<flow>/"
+}

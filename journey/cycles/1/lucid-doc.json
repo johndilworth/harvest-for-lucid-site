@@ -1,0 +1,63 @@
+{
+  "cycle": 1,
+  "docId": "58ff5647-5bbd-472f-b880-d91bec0f4005",
+  "title": "Harvest site — Cycle 1 review",
+  "editUrl": "https://lucid.app/lucidchart/58ff5647-5bbd-472f-b880-d91bec0f4005/edit",
+  "viewUrl": "https://lucid.app/lucidchart/58ff5647-5bbd-472f-b880-d91bec0f4005/view",
+  "layout": "pages",
+  "pages": [
+    {
+      "index": 1,
+      "id": "p1",
+      "title": "1. Home (/) · cycle 1",
+      "flow": "home",
+      "frames": 11
+    },
+    {
+      "index": 2,
+      "id": "p2",
+      "title": "2. Beta signup (/beta) · cycle 1",
+      "flow": "beta-signup",
+      "frames": 4
+    },
+    {
+      "index": 3,
+      "id": "p3",
+      "title": "3. How it works (/how-it-works) · cycle 1",
+      "flow": "how-it-works",
+      "frames": 5
+    },
+    {
+      "index": 4,
+      "id": "p4",
+      "title": "4. Pricing (/pricing) · cycle 1",
+      "flow": "pricing",
+      "frames": 2
+    }
+  ],
+  "createdAt": "2026-10-02T08:13:09Z",
+  "capturedCommit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+  "deployUrl": "https://harvest-for-lucid.netlify.app",
+  "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c1-<flow>/",
+  "assetDeploy": "6abf66c49cc359344a9871a5",
+  "preflight": {
+    "errors": 0,
+    "warnings": "50 shown (truncated): container-padding/shape-clearance for hdr-* vs frame/img, text-fit on headers; exports show headers fully visible"
+  },
+  "lucidCalls": {
+    "get_mcp_resource(diagram-specification)": 1,
+    "lucid_create_diagram_from_specification": 1,
+    "lucid_export_document_as_PNG": 6,
+    "validate": 0,
+    "scratchDocs": 0
+  },
+  "harvest": "not run yet: board just created, no reviewer feedback. Run journey/harvest/harvest.py after reviewers add stickies.",
+  "exports": [
+    "export/lucid-export-p1-home.png",
+    "export/lucid-export-p1-home-detail-frames-1-3.png",
+    "export/lucid-export-p2-beta-signup.png",
+    "export/lucid-export-p3-how-it-works.png",
+    "export/lucid-export-p3-detail-how-02-review.png",
+    "export/lucid-export-p4-pricing.png"
+  ]
+}
