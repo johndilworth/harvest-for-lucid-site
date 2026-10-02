@@ -1,10 +1,10 @@
 {
   "cycle": 2,
-  "docId": null,
-  "title": "Harvest site — Cycle 2 review (PR #1)",
-  "status": "NOT CREATED: lucid_create_diagram_from_specification was rejected twice by the tool-approval check (\"An error occured while classifying this action. Please review manually.\"), 2026-10-02 ~12:45 MDT. No doc or scratch doc exists (Lucid search after the attempt). Import lucid-spec.json unchanged once approved.",
+  "docId": "94e6f74e-a6ce-43cd-a33d-73bb349db041",
+  "title": "Harvest site — Cycle 2 review (PR #1) · Home",
+  "status": "CREATED (Home only). Scope reduced per user: only page p1 (11 home frames, title, legend, arrows) imported from lucid-spec.json via lucid-spec-home.json; beta-signup, how-it-works and pricing pages dropped. Earlier full 4-page imports were rejected by the tool-approval classifier error.",
   "layout": "pages",
-  "spec": "lucid-spec.json",
+  "spec": "lucid-spec-home.json",
   "layoutNotes": "lucid-spec-layout.json",
   "pages": [
     {
@@ -13,27 +13,6 @@
       "title": "1. Home (/) · cycle 2",
       "flow": "home",
       "frames": 11
-    },
-    {
-      "index": 2,
-      "id": "p2",
-      "title": "2. Beta signup (/beta) · cycle 2",
-      "flow": "beta-signup",
-      "frames": 4
-    },
-    {
-      "index": 3,
-      "id": "p3",
-      "title": "3. How it works (/how-it-works) · cycle 2",
-      "flow": "how-it-works",
-      "frames": 5
-    },
-    {
-      "index": 4,
-      "id": "p4",
-      "title": "4. Pricing (/pricing) · cycle 2",
-      "flow": "pricing",
-      "frames": 2
     }
   ],
   "capturedCommit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
@@ -43,10 +22,16 @@
   "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c2-<flow>/",
   "assetCheck": "22/22 asset-urls.json URLs 200 and byte-identical to annotated PNGs (2026-10-02 ~12:40 MDT)",
   "lucidCalls": {
-    "search": 4,
-    "get_mcp_resource(diagram-specification)": 1,
-    "lucid_create_diagram_from_specification": "2 (both rejected before reaching Lucid)",
-    "lucid_export_document_as_PNG": 0,
+    "search": 5,
+    "get_mcp_resource(diagram-specification)": 2,
+    "lucid_create_diagram_from_specification": "4 full-spec attempts rejected by classifier; 1 home-only success",
+    "lucid_export_document_as_PNG": "2 full-page (500) + 4 cropped OK",
     "scratchDocs": 0
-  }
+  },
+  "editUrl": "https://lucid.app/lucidchart/94e6f74e-a6ce-43cd-a33d-73bb349db041/edit",
+  "viewUrl": "https://lucid.app/lucidchart/94e6f74e-a6ce-43cd-a33d-73bb349db041/view",
+  "created": "2026-10-02 13:27 MDT",
+  "fullSpec": "lucid-spec.json (4 pages, not imported)",
+  "scope": "home only",
+  "renderCheck": "Full-page export returned Lucid 'Internal server error' twice (page ~29.4k px wide); 4 cropped exports (title+frames 1-2, 3-5, 6-8, 9-11) all render: 11/11 cycle-2 screenshots + 11/11 cycle-1 before thumbnails visible, arrows, headers and change lists present. Preflight: 0 errors, 25 text-fit warnings (none visibly clipped)."
 }
