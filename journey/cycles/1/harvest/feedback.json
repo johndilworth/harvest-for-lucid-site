@@ -1,0 +1,200 @@
+{
+ "docId": "58ff5647-5bbd-472f-b880-d91bec0f4005",
+ "cycle": 1,
+ "harvestedAt": "2026-10-02T17:59:33.175108+00:00",
+ "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+ "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+ "source": "feedback.raw.json (harvest.py 8ebc385 output) + proposed fixes against site/ @ main 8ebc385",
+ "screens": [
+  {
+   "stepKey": "home-01-hero",
+   "route": "/",
+   "pageId": "p1",
+   "frameId": "frame-home-01-hero",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "feedback": [
+    {
+     "itemId": ".lFzLThJV9Vd",
+     "text": "Simplify this into a single header menu — don't need Lucid menu and Harvest menu. For now remove the \"Lucid menu\" at top, and focus on Harvest only. \n\nRemove \"for Lucidchart\" and let's just call it Harvest.",
+     "priority": "try",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "try",
+     "priorityConflict": false,
+     "fill": "#ffe342ff",
+     "interpretation": "Two asks: (1) drop the Lucid global header and keep a single Harvest nav; (2) rename the product \"Harvest\" (drop \"for Lucidchart\").",
+     "proposedFix": [
+      "All 4 pages (index/beta/how-it-works/pricing.html l.15-38): delete <header class=\"gnav\"> (Lucid wordmark, Products/Solutions/Resources/Company/Enterprise, Log in, Contact sales, burger).",
+      "Make .pnav the only header: move the \"Join the beta\" primary button into .pnav right side (replace or sit beside \"Watch the walkthrough\"); site.css .pnav{position:sticky;top:0;z-index:50}.",
+      "Move the burger into .pnav and repoint site.js (nav = .pnav) + site.css @media rules l.279-284 (.pnav ul is currently display:none on mobile with no menu at all once gnav is gone).",
+      "Rename: .pmark \"<small>for Lucidchart</small>\" removed on all 4 pages; index.html <title> \"Harvest | Lucid\"; beta.html meta description; index.html l.57 hero eyebrow (removed anyway, see LkFzw70dU4RM); index.html l.197 compare th \"Harvest\"; pricing.html l.58 lede \"Harvest is a concept...\"; keep pricing FAQ l.83 \"add-on for Lucidchart\" (factual, not the name)."
+     ],
+     "files": [
+      "site/index.html",
+      "site/beta.html",
+      "site/how-it-works.html",
+      "site/pricing.html",
+      "site/assets/site.css",
+      "site/assets/site.js"
+     ]
+    },
+    {
+     "itemId": "~iFzEJJhMQKR",
+     "text": "Remove the get on the list banner. It's unnecessary",
+     "priority": "must",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "must",
+     "priorityConflict": false,
+     "fill": "#e81313ff",
+     "interpretation": "Remove the blue \"early development ... Get on the list\" announcement pill.",
+     "proposedFix": [
+      "Delete <div class=\"announce-wrap\"> (l.51) from index.html, how-it-works.html, pricing.html (beta.html has none).",
+      "Delete .announce/.announce-wrap rules in site.css (l.75-79, l.299)."
+     ],
+     "files": [
+      "site/index.html",
+      "site/how-it-works.html",
+      "site/pricing.html",
+      "site/assets/site.css"
+     ]
+    },
+    {
+     "itemId": "LkFzw70dU4RM",
+     "text": "Don't use the all caps eyebrow titles in the design — they are unecessary — remove \"HARVEST FOR LUCIDCHART - LUCID SUITE ADD-ON (CONCEPT) here.",
+     "priority": "try",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "try",
+     "priorityConflict": false,
+     "fill": "#ffe342ff",
+     "interpretation": "Remove the all-caps hero eyebrow \"HARVEST FOR LUCIDCHART · LUCID SUITE ADD-ON (CONCEPT)\"; general rule: no all-caps eyebrows.",
+     "proposedFix": [
+      "index.html l.57: delete <p class=\"eyebrow\">.",
+      "Applied site-wide together with _nFzKjsd~dpT (see there)."
+     ],
+     "files": [
+      "site/index.html"
+     ]
+    },
+    {
+     "itemId": "ynFz04DO.ydA",
+     "text": "remove caption text below buttons, also unecessary  — keep focus simple.",
+     "priority": "must",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "must",
+     "priorityConflict": false,
+     "fill": "#e81313ff",
+     "interpretation": "Remove the small caption under the hero buttons (\"Harvest is a concept in development. Pricing: coming soon.\").",
+     "proposedFix": [
+      "index.html l.64: delete <p class=\"fine\">."
+     ],
+     "files": [
+      "site/index.html"
+     ],
+     "ambiguity": "Sticky sits at the left under the CTA row, so it targets l.64 only. The hero illustration caption (l.75) and the beta form .fine lines (beta.html l.84/100) are not \"below buttons\"; left as-is unless you want \"keep focus simple\" applied more widely."
+    }
+   ]
+  },
+  {
+   "stepKey": "home-02-problem",
+   "route": "/",
+   "pageId": "p1",
+   "frameId": "frame-home-02-problem",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "feedback": [
+    {
+     "itemId": "_nFzKjsd~dpT",
+     "text": "remove eyebrow titles such as \"THE PROBLEM\"  wherever possible, headlines can stand on their own.",
+     "priority": "try",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "try",
+     "priorityConflict": false,
+     "fill": "#ffe342ff",
+     "interpretation": "Remove section eyebrows (\"THE PROBLEM\" etc.) wherever possible; headlines stand alone.",
+     "proposedFix": [
+      "index.html: delete the 9 section eyebrows (l.82 The problem, 94 How it works, 108 Why Harvest, 122 Before and after, 152 Paper trail, 166 Real results, 180 Cost and efficiency, 193 Compare, 213 Lucid Visual Collaboration Suite).",
+      "Also (with LkFzw70dU4RM \"don't use all-caps eyebrows in the design\"): how-it-works.html l.56/96/107, pricing.html l.56, beta.html l.58.",
+      "site.css l.83: drop .eyebrow rule (or keep it non-uppercase if any must stay); check .sec-head spacing so h2 sits flush without the 12px eyebrow margin."
+     ],
+     "files": [
+      "site/index.html",
+      "site/how-it-works.html",
+      "site/pricing.html",
+      "site/beta.html",
+      "site/assets/site.css"
+     ]
+    }
+   ]
+  },
+  {
+   "stepKey": "pricing-01-plans",
+   "route": "/pricing",
+   "pageId": "p4",
+   "frameId": "frame-pricing-01-plans",
+   "url": "https://harvest-for-lucid.netlify.app/pricing",
+   "feedback": [
+    {
+     "itemId": "LVGz2Ua1UQLs",
+     "text": "",
+     "priority": null,
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "try",
+     "priorityConflict": false,
+     "fill": "#ffe342ff",
+     "empty": true,
+     "interpretation": "EMPTY yellow sticky (only the author attribution, no text) near the bottom-left of the pricing plans screen.",
+     "proposedFix": [
+      "No change; needs your intent (likely an unfinished note, or the \"Pricing: coming soon\" area)."
+     ],
+     "files": [],
+     "ambiguity": "empty sticky"
+    }
+   ]
+  }
+ ],
+ "screensWithoutFeedback": [
+  "home-03-how",
+  "home-04-benefits",
+  "home-05-before-after",
+  "home-06-paper-trail",
+  "home-07-results",
+  "home-08-cost",
+  "home-09-compare",
+  "home-10-suite",
+  "home-11-cta-footer",
+  "beta-01-home-cta",
+  "beta-02-form",
+  "beta-03-form-filled",
+  "beta-04-success",
+  "how-01-top",
+  "how-02-review",
+  "how-03-harvest-ship",
+  "how-04-repeat",
+  "how-05-limits",
+  "pricing-02-faq"
+ ],
+ "counts": {
+  "must": 2,
+  "try": 3,
+  "maybe": 0,
+  "none": 1,
+  "items": 6,
+  "screensWithFeedback": 3,
+  "frames": 22,
+  "comments": 0,
+  "outsideFrames": 0,
+  "boardFeedback": 0,
+  "priorityConflicts": 0
+ },
+ "notes": [
+  "No priority keywords (Do:/Must do/Try:/Consider:) on any sticky: all priorities from colour (#e81313 red=must, #ffe342 yellow=try).",
+  "No purple/\"Board:\" notes, no comments, no stickies outside frames, no before panels (cycle 1). board-diff.json: 0 direct layout edits.",
+  "_nFzKjsd~dpT + LkFzw70dU4RM overlap (eyebrows); treated as one site-wide change. Priority try (both yellow).",
+  "Header removal (.lFzLThJV9Vd, try) affects every screen on every flow and the beta CTA path (beta-01-home-cta clicks hero \"Get early access\", unaffected).",
+  "Renaming to \"Harvest\" changes page titles captured in frame titles/manifest for cycle 2 (stepKeys unchanged)."
+ ]
+}

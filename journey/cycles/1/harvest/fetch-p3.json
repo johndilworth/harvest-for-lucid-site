@@ -1,0 +1,206 @@
+{
+ "_note": "Condensed from Lucid fetch(page_index=3) 2026-10-02 ~12:00 MDT via board-state.py",
+ "pages": [
+  {
+   "pageId": "p3",
+   "pageTitle": "3. How it works (/how-it-works) · cycle 1",
+   "items": [
+    {
+     "id": "doc-title-p3",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -860, w: 4400, h: 200"
+     }
+    },
+    {
+     "id": "legend-box-p3",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -560, w: 2600, h: 360"
+     }
+    },
+    {
+     "id": "legend-must-p3",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 2700, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-try-p3",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3020, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-maybe-p3",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3340, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "frame-how-01-top",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 0, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "how-01-top · /how-it-works · How Harvest works | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-how-01-top",
+      "hdr-how-01-top"
+     ]
+    },
+    {
+     "id": "hdr-how-01-top",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 400, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-how-01-top",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 400, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-how-02-review",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 2720, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "how-02-review · /how-it-works · How Harvest works | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-how-02-review",
+      "hdr-how-02-review"
+     ]
+    },
+    {
+     "id": "hdr-how-02-review",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3120, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-how-02-review",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 3120, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-how-03-harvest-ship",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 5440, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "how-03-harvest-ship · /how-it-works · How Harvest works | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-how-03-harvest-ship",
+      "hdr-how-03-harvest-ship"
+     ]
+    },
+    {
+     "id": "hdr-how-03-harvest-ship",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 5840, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-how-03-harvest-ship",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 5840, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-how-04-repeat",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 8160, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "how-04-repeat · /how-it-works · How Harvest works | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-how-04-repeat",
+      "hdr-how-04-repeat"
+     ]
+    },
+    {
+     "id": "hdr-how-04-repeat",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 8560, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-how-04-repeat",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 8560, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-how-05-limits",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 10880, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "how-05-limits · /how-it-works · How Harvest works | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-how-05-limits",
+      "hdr-how-05-limits"
+     ]
+    },
+    {
+     "id": "hdr-how-05-limits",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 11280, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-how-05-limits",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 11280, y: 260, w: 1440, h: 1024"
+     }
+    }
+   ]
+  }
+ ]
+}

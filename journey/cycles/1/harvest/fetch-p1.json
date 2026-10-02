@@ -1,0 +1,485 @@
+{
+ "_note": "Condensed from Lucid fetch(page_index=1) 2026-10-02 ~12:00 MDT via board-state.py",
+ "pages": [
+  {
+   "pageId": "p1",
+   "pageTitle": "1. Home (/) · cycle 1",
+   "items": [
+    {
+     "id": "doc-title-p1",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -860, w: 4400, h: 200"
+     }
+    },
+    {
+     "id": "legend-box-p1",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -560, w: 2600, h: 360"
+     }
+    },
+    {
+     "id": "legend-must-p1",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 2700, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-try-p1",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3020, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-maybe-p1",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3340, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "frame-home-01-hero",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 0, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-01-hero · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-01-hero",
+      "hdr-home-01-hero",
+      ".lFzLThJV9Vd",
+      "~iFzEJJhMQKR",
+      "ynFz04DO.ydA"
+     ]
+    },
+    {
+     "id": "hdr-home-01-hero",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 400, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-01-hero",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 400, y: 260, w: 1440, h: 1024"
+     },
+     "childrenIds": [
+      "LkFzw70dU4RM"
+     ]
+    },
+    {
+     "id": "frame-home-02-problem",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 2720, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-02-problem · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-02-problem",
+      "hdr-home-02-problem",
+      "_nFzKjsd~dpT"
+     ]
+    },
+    {
+     "id": "hdr-home-02-problem",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3120, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-02-problem",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 3120, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-03-how",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 5440, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-03-how · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-03-how",
+      "hdr-home-03-how"
+     ]
+    },
+    {
+     "id": "hdr-home-03-how",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 5840, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-03-how",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 5840, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-04-benefits",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 8160, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-04-benefits · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-04-benefits",
+      "hdr-home-04-benefits"
+     ]
+    },
+    {
+     "id": "hdr-home-04-benefits",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 8560, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-04-benefits",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 8560, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-05-before-after",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 10880, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-05-before-after · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-05-before-after",
+      "hdr-home-05-before-after"
+     ]
+    },
+    {
+     "id": "hdr-home-05-before-after",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 11280, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-05-before-after",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 11280, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-06-paper-trail",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 13600, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-06-paper-trail · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-06-paper-trail",
+      "hdr-home-06-paper-trail"
+     ]
+    },
+    {
+     "id": "hdr-home-06-paper-trail",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 14000, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-06-paper-trail",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 14000, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-07-results",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 16320, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-07-results · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-07-results",
+      "hdr-home-07-results"
+     ]
+    },
+    {
+     "id": "hdr-home-07-results",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 16720, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-07-results",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 16720, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-08-cost",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 19040, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-08-cost · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-08-cost",
+      "hdr-home-08-cost"
+     ]
+    },
+    {
+     "id": "hdr-home-08-cost",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 19440, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-08-cost",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 19440, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-09-compare",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 21760, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-09-compare · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-09-compare",
+      "hdr-home-09-compare"
+     ]
+    },
+    {
+     "id": "hdr-home-09-compare",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 22160, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-09-compare",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 22160, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-10-suite",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 24480, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-10-suite · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-10-suite",
+      "hdr-home-10-suite"
+     ]
+    },
+    {
+     "id": "hdr-home-10-suite",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 24880, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-10-suite",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 24880, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-home-11-cta-footer",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 27200, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "home-11-cta-footer · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-home-11-cta-footer",
+      "hdr-home-11-cta-footer"
+     ]
+    },
+    {
+     "id": "hdr-home-11-cta-footer",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 27600, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-home-11-cta-footer",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 27600, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": ".lFzLThJV9Vd",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 245.93418000346128, y: 166.01413116067874, w: 160, h: 160",
+      "FillColor": "#ffe342ff",
+      "TextAreas": [
+       {
+        "key": "Text",
+        "text": "Simplify this into a single header menu — don't need Lucid menu and Harvest menu. For now remove the \"Lucid menu\" at top, and focus on Harvest only. \n\nRemove \"for Lucidchart\" and let's just call it Harvest."
+       }
+      ]
+     },
+     "attribution": "John Dilworth"
+    },
+    {
+     "id": "~iFzEJJhMQKR",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 282.8110326834859, y: 393.4673973321726, w: 160, h: 160",
+      "FillColor": "#e81313ff",
+      "TextAreas": [
+       {
+        "key": "Text",
+        "text": "Remove the get on the list banner. It's unnecessary"
+       }
+      ]
+     },
+     "attribution": "John Dilworth"
+    },
+    {
+     "id": "LkFzw70dU4RM",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 866.9565920874644, y: 497.09109187480794, w: 160, h: 160",
+      "FillColor": "#ffe342ff",
+      "TextAreas": [
+       {
+        "key": "Text",
+        "text": "Don't use the all caps eyebrow titles in the design — they are unecessary — remove \"HARVEST FOR LUCIDCHART - LUCID SUITE ADD-ON (CONCEPT) here."
+       }
+      ]
+     },
+     "attribution": "John Dilworth"
+    },
+    {
+     "id": "ynFz04DO.ydA",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 405.9341800034613, y: 1137.0734080888146, w: 160, h: 160",
+      "FillColor": "#e81313ff",
+      "TextAreas": [
+       {
+        "key": "Text",
+        "text": "remove caption text below buttons, also unecessary  — keep focus simple."
+       }
+      ]
+     },
+     "attribution": "John Dilworth"
+    },
+    {
+     "id": "_nFzKjsd~dpT",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 2940, y: 342.25378217816956, w: 160, h: 160",
+      "FillColor": "#ffe342ff",
+      "TextAreas": [
+       {
+        "key": "Text",
+        "text": "remove eyebrow titles such as \"THE PROBLEM\"  wherever possible, headlines can stand on their own."
+       }
+      ]
+     },
+     "attribution": "John Dilworth"
+    }
+   ]
+  }
+ ]
+}

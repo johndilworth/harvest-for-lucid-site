@@ -1,0 +1,37 @@
+{
+ "_note": "Cycle 1 board state 2026-10-02 ~12:00 MDT",
+ "pages": {
+  "p1": {
+   "title": "1. Home (/) · cycle 1",
+   "generated": 38,
+   "arrows": 10,
+   "stickies": [
+    ".lFzLThJV9Vd",
+    "~iFzEJJhMQKR",
+    "LkFzw70dU4RM",
+    "ynFz04DO.ydA",
+    "_nFzKjsd~dpT"
+   ]
+  },
+  "p2": {
+   "title": "2. Beta signup (/beta) · cycle 1",
+   "generated": 17,
+   "arrows": 3,
+   "stickies": []
+  },
+  "p3": {
+   "title": "3. How it works (/how-it-works) · cycle 1",
+   "generated": 20,
+   "arrows": 4,
+   "stickies": []
+  },
+  "p4": {
+   "title": "4. Pricing (/pricing) · cycle 1",
+   "generated": 11,
+   "arrows": 1,
+   "stickies": [
+    "LVGz2Ua1UQLs"
+   ]
+  }
+ }
+}

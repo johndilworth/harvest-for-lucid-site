@@ -1,0 +1,536 @@
+{
+  "docId": "58ff5647-5bbd-472f-b880-d91bec0f4005",
+  "cycle": 1,
+  "harvestedAt": "2026-10-02T17:59:33.175108+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-01-hero",
+      "pageId": "p1",
+      "frameTitle": "home-01-hero · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-01-hero",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/01-home-01-hero.png",
+      "feedback": [
+        {
+          "itemId": ".lFzLThJV9Vd",
+          "kind": "sticky",
+          "text": "Simplify this into a single header menu — don't need Lucid menu and Harvest menu. For now remove the \"Lucid menu\" at top, and focus on Harvest only. \n\nRemove \"for Lucidchart\" and let's just call it Harvest.",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 245.93418000346128,
+            "y": 166.01413116067874,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "~iFzEJJhMQKR",
+          "kind": "sticky",
+          "text": "Remove the get on the list banner. It's unnecessary",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 282.8110326834859,
+            "y": 393.4673973321726,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "LkFzw70dU4RM",
+          "kind": "sticky",
+          "text": "Don't use the all caps eyebrow titles in the design — they are unecessary — remove \"HARVEST FOR LUCIDCHART - LUCID SUITE ADD-ON (CONCEPT) here.",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 866.9565920874644,
+            "y": 497.09109187480794,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": "img-home-01-hero",
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "ynFz04DO.ydA",
+          "kind": "sticky",
+          "text": "remove caption text below buttons, also unecessary  — keep focus simple.",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 405.9341800034613,
+            "y": 1137.0734080888146,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-02-problem",
+      "pageId": "p1",
+      "frameTitle": "home-02-problem · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-02-problem",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/02-home-02-problem.png",
+      "feedback": [
+        {
+          "itemId": "_nFzKjsd~dpT",
+          "kind": "sticky",
+          "text": "remove eyebrow titles such as \"THE PROBLEM\"  wherever possible, headlines can stand on their own.",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 2940.0,
+            "y": 342.25378217816956,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-02-problem",
+            "via": null,
+            "bbox": "frame-home-02-problem",
+            "bestOverlap": {
+              "frameId": "frame-home-02-problem",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-03-how",
+      "pageId": "p1",
+      "frameTitle": "home-03-how · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-03-how",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/03-home-03-how.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-04-benefits",
+      "pageId": "p1",
+      "frameTitle": "home-04-benefits · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-04-benefits",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/04-home-04-benefits.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-05-before-after",
+      "pageId": "p1",
+      "frameTitle": "home-05-before-after · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-05-before-after",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/05-home-05-before-after.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-06-paper-trail",
+      "pageId": "p1",
+      "frameTitle": "home-06-paper-trail · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-06-paper-trail",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/06-home-06-paper-trail.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-07-results",
+      "pageId": "p1",
+      "frameTitle": "home-07-results · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-07-results",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/07-home-07-results.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-08-cost",
+      "pageId": "p1",
+      "frameTitle": "home-08-cost · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-08-cost",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/08-home-08-cost.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-09-compare",
+      "pageId": "p1",
+      "frameTitle": "home-09-compare · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-09-compare",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/09-home-09-compare.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-10-suite",
+      "pageId": "p1",
+      "frameTitle": "home-10-suite · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-10-suite",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/10-home-10-suite.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-11-cta-footer",
+      "pageId": "p1",
+      "frameTitle": "home-11-cta-footer · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "home-11-cta-footer",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/home/annotated/11-home-11-cta-footer.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-beta-01-home-cta",
+      "pageId": "p2",
+      "frameTitle": "beta-01-home-cta · / · Harvest for Lucidchart | Lucid",
+      "stepKey": "beta-01-home-cta",
+      "matchedBy": "frame-id",
+      "flow": "beta-signup",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Harvest for Lucidchart | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": {
+        "role": "link",
+        "name": "Get early access",
+        "cssPath": "section#top > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+      },
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/beta-signup/annotated/01-beta-01-home-cta.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-beta-02-form",
+      "pageId": "p2",
+      "frameTitle": "beta-02-form · /beta · Join the Harvest beta | Lucid",
+      "stepKey": "beta-02-form",
+      "matchedBy": "frame-id",
+      "flow": "beta-signup",
+      "route": "/beta",
+      "url": "https://harvest-for-lucid.netlify.app/beta",
+      "title": "Join the Harvest beta | Lucid",
+      "h1": "Join the Harvest beta",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/beta-signup/annotated/02-beta-02-form.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-beta-03-form-filled",
+      "pageId": "p2",
+      "frameTitle": "beta-03-form-filled · /beta · Join the Harvest beta | Lucid",
+      "stepKey": "beta-03-form-filled",
+      "matchedBy": "frame-id",
+      "flow": "beta-signup",
+      "route": "/beta",
+      "url": "https://harvest-for-lucid.netlify.app/beta",
+      "title": "Join the Harvest beta | Lucid",
+      "h1": "Join the Harvest beta",
+      "clicked": {
+        "role": "button",
+        "name": "Join the beta waitlist",
+        "cssPath": "form#beta-form > button"
+      },
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/beta-signup/annotated/03-beta-03-form-filled.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-beta-04-success",
+      "pageId": "p2",
+      "frameTitle": "beta-04-success · /beta · You're on the list | Harvest beta | Lucid",
+      "stepKey": "beta-04-success",
+      "matchedBy": "frame-id",
+      "flow": "beta-signup",
+      "route": "/beta",
+      "url": "https://harvest-for-lucid.netlify.app/beta",
+      "title": "You're on the list | Harvest beta | Lucid",
+      "h1": "You’re on the beta list",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/beta-signup/annotated/04-beta-04-success.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-how-01-top",
+      "pageId": "p3",
+      "frameTitle": "how-01-top · /how-it-works · How Harvest works | Lucid",
+      "stepKey": "how-01-top",
+      "matchedBy": "frame-id",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://harvest-for-lucid.netlify.app/how-it-works",
+      "title": "How Harvest works | Lucid",
+      "h1": "From prototype to pull request, one review cycle at a time",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/how-it-works/annotated/01-how-01-top.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-how-02-review",
+      "pageId": "p3",
+      "frameTitle": "how-02-review · /how-it-works · How Harvest works | Lucid",
+      "stepKey": "how-02-review",
+      "matchedBy": "frame-id",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://harvest-for-lucid.netlify.app/how-it-works",
+      "title": "How Harvest works | Lucid",
+      "h1": "From prototype to pull request, one review cycle at a time",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/how-it-works/annotated/02-how-02-review.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-how-03-harvest-ship",
+      "pageId": "p3",
+      "frameTitle": "how-03-harvest-ship · /how-it-works · How Harvest works | Lucid",
+      "stepKey": "how-03-harvest-ship",
+      "matchedBy": "frame-id",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://harvest-for-lucid.netlify.app/how-it-works",
+      "title": "How Harvest works | Lucid",
+      "h1": "From prototype to pull request, one review cycle at a time",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/how-it-works/annotated/03-how-03-harvest-ship.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-how-04-repeat",
+      "pageId": "p3",
+      "frameTitle": "how-04-repeat · /how-it-works · How Harvest works | Lucid",
+      "stepKey": "how-04-repeat",
+      "matchedBy": "frame-id",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://harvest-for-lucid.netlify.app/how-it-works",
+      "title": "How Harvest works | Lucid",
+      "h1": "From prototype to pull request, one review cycle at a time",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/how-it-works/annotated/04-how-04-repeat.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-how-05-limits",
+      "pageId": "p3",
+      "frameTitle": "how-05-limits · /how-it-works · How Harvest works | Lucid",
+      "stepKey": "how-05-limits",
+      "matchedBy": "frame-id",
+      "flow": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://harvest-for-lucid.netlify.app/how-it-works",
+      "title": "How Harvest works | Lucid",
+      "h1": "From prototype to pull request, one review cycle at a time",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/how-it-works/annotated/05-how-05-limits.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-pricing-01-plans",
+      "pageId": "p4",
+      "frameTitle": "pricing-01-plans · /pricing · Harvest pricing | Lucid",
+      "stepKey": "pricing-01-plans",
+      "matchedBy": "frame-id",
+      "flow": "pricing",
+      "route": "/pricing",
+      "url": "https://harvest-for-lucid.netlify.app/pricing",
+      "title": "Harvest pricing | Lucid",
+      "h1": "Pricing: coming soon",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/pricing/annotated/01-pricing-01-plans.png",
+      "feedback": [
+        {
+          "itemId": "LVGz2Ua1UQLs",
+          "kind": "sticky",
+          "text": "",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 213.35714285714278,
+            "y": 1124.0,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-pricing-01-plans",
+            "via": null,
+            "bbox": "frame-pricing-01-plans",
+            "bestOverlap": {
+              "frameId": "frame-pricing-01-plans",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-pricing-02-faq",
+      "pageId": "p4",
+      "frameTitle": "pricing-02-faq · /pricing · Harvest pricing | Lucid",
+      "stepKey": "pricing-02-faq",
+      "matchedBy": "frame-id",
+      "flow": "pricing",
+      "route": "/pricing",
+      "url": "https://harvest-for-lucid.netlify.app/pricing",
+      "title": "Harvest pricing | Lucid",
+      "h1": "Pricing: coming soon",
+      "clicked": null,
+      "commit": "8cec138a61a43077024a8110d9f38d0b2c146c48",
+      "screenshot": "out/cycle-1/pricing/annotated/02-pricing-02-faq.png",
+      "feedback": []
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [],
+  "boardFeedback": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}

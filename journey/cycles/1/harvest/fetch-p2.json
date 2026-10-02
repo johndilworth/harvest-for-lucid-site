@@ -1,0 +1,174 @@
+{
+ "_note": "Condensed from Lucid fetch(page_index=2) 2026-10-02 ~12:00 MDT via board-state.py",
+ "pages": [
+  {
+   "pageId": "p2",
+   "pageTitle": "2. Beta signup (/beta) · cycle 1",
+   "items": [
+    {
+     "id": "doc-title-p2",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -860, w: 4400, h: 200"
+     }
+    },
+    {
+     "id": "legend-box-p2",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -560, w: 2600, h: 360"
+     }
+    },
+    {
+     "id": "legend-must-p2",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 2700, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-try-p2",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3020, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-maybe-p2",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3340, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "frame-beta-01-home-cta",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 0, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "beta-01-home-cta · / · Harvest for Lucidchart | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-beta-01-home-cta",
+      "hdr-beta-01-home-cta"
+     ]
+    },
+    {
+     "id": "hdr-beta-01-home-cta",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 400, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-beta-01-home-cta",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 400, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-beta-02-form",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 2720, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "beta-02-form · /beta · Join the Harvest beta | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-beta-02-form",
+      "hdr-beta-02-form"
+     ]
+    },
+    {
+     "id": "hdr-beta-02-form",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3120, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-beta-02-form",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 3120, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-beta-03-form-filled",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 5440, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "beta-03-form-filled · /beta · Join the Harvest beta | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-beta-03-form-filled",
+      "hdr-beta-03-form-filled"
+     ]
+    },
+    {
+     "id": "hdr-beta-03-form-filled",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 5840, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-beta-03-form-filled",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 5840, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-beta-04-success",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 8160, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "beta-04-success · /beta · You're on the list | Harvest beta | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-beta-04-success",
+      "hdr-beta-04-success"
+     ]
+    },
+    {
+     "id": "hdr-beta-04-success",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 8560, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-beta-04-success",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 8560, y: 260, w: 1440, h: 1024"
+     }
+    }
+   ]
+  }
+ ]
+}

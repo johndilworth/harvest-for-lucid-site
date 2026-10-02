@@ -1,0 +1,122 @@
+{
+ "_note": "Condensed from Lucid fetch(page_index=4) 2026-10-02 ~12:00 MDT via board-state.py",
+ "pages": [
+  {
+   "pageId": "p4",
+   "pageTitle": "4. Pricing (/pricing) · cycle 1",
+   "items": [
+    {
+     "id": "doc-title-p4",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -860, w: 4400, h: 200"
+     }
+    },
+    {
+     "id": "legend-box-p4",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 0, y: -560, w: 2600, h: 360"
+     }
+    },
+    {
+     "id": "legend-must-p4",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 2700, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-try-p4",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3020, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "legend-maybe-p4",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3340, y: -530, w: 260, h: 300"
+     }
+    },
+    {
+     "id": "frame-pricing-01-plans",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 0, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "pricing-01-plans · /pricing · Harvest pricing | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-pricing-01-plans",
+      "hdr-pricing-01-plans",
+      "LVGz2Ua1UQLs"
+     ]
+    },
+    {
+     "id": "hdr-pricing-01-plans",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 400, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-pricing-01-plans",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 400, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "frame-pricing-02-faq",
+     "properties": {
+      "BlockClass": "SparkFrameBlock",
+      "BoundingBox": "x: 2720, y: 0, w: 2240, h: 1684",
+      "TextAreas": [
+       {
+        "key": "FrameTitle",
+        "text": "pricing-02-faq · /pricing · Harvest pricing | Lucid"
+       }
+      ]
+     },
+     "shapeType": "Frame",
+     "childrenIds": [
+      "img-pricing-02-faq",
+      "hdr-pricing-02-faq"
+     ]
+    },
+    {
+     "id": "hdr-pricing-02-faq",
+     "properties": {
+      "BlockClass": "DefaultTextBlockNew",
+      "BoundingBox": "x: 3120, y: 40, w: 1440, h: 200"
+     }
+    },
+    {
+     "id": "img-pricing-02-faq",
+     "properties": {
+      "BlockClass": "UserImage2Block",
+      "BoundingBox": "x: 3120, y: 260, w: 1440, h: 1024"
+     }
+    },
+    {
+     "id": "LVGz2Ua1UQLs",
+     "shapeType": "Sticky note",
+     "properties": {
+      "BlockClass": "StickiesStickyNoteBlock",
+      "BoundingBox": "x: 213.35714285714278, y: 1124, w: 160, h: 160",
+      "FillColor": "#ffe342ff",
+      "TextAreas": []
+     },
+     "attribution": "John Dilworth"
+    }
+   ]
+  }
+ ]
+}

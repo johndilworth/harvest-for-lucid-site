@@ -1,0 +1,59 @@
+{
+ "_note": "Fetched generated shapes vs lucid-spec.json (2026-10-02 ~12:00 MDT)",
+ "pages": {
+  "p1": {
+   "specShapes": 38,
+   "boardGenerated": 38,
+   "missing": [],
+   "extraGenerated": [],
+   "moved/resized": [],
+   "specLines": 10,
+   "boardLines": 10,
+   "reviewerAdded": [
+    ".lFzLThJV9Vd",
+    "~iFzEJJhMQKR",
+    "LkFzw70dU4RM",
+    "ynFz04DO.ydA",
+    "_nFzKjsd~dpT"
+   ],
+   "styleChanges": []
+  },
+  "p2": {
+   "specShapes": 17,
+   "boardGenerated": 17,
+   "missing": [],
+   "extraGenerated": [],
+   "moved/resized": [],
+   "specLines": 3,
+   "boardLines": 3,
+   "reviewerAdded": [],
+   "styleChanges": []
+  },
+  "p3": {
+   "specShapes": 20,
+   "boardGenerated": 20,
+   "missing": [],
+   "extraGenerated": [],
+   "moved/resized": [],
+   "specLines": 4,
+   "boardLines": 4,
+   "reviewerAdded": [],
+   "styleChanges": []
+  },
+  "p4": {
+   "specShapes": 11,
+   "boardGenerated": 11,
+   "missing": [],
+   "extraGenerated": [],
+   "moved/resized": [],
+   "specLines": 1,
+   "boardLines": 1,
+   "reviewerAdded": [
+    "LVGz2Ua1UQLs"
+   ],
+   "styleChanges": []
+  }
+ },
+ "directLayoutEdits": 0,
+ "summary": "No direct layout edits: every generated shape and arrow is where lucid-spec.json/lucid-layout.json put it; only additions are 6 sticky notes (5 on p1, 1 empty on p4)."
+}
