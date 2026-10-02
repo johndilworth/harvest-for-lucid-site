@@ -1,0 +1,52 @@
+{
+  "cycle": 2,
+  "docId": null,
+  "title": "Harvest site — Cycle 2 review (PR #1)",
+  "status": "NOT CREATED: lucid_create_diagram_from_specification was rejected twice by the tool-approval check (\"An error occured while classifying this action. Please review manually.\"), 2026-10-02 ~12:45 MDT. No doc or scratch doc exists (Lucid search after the attempt). Import lucid-spec.json unchanged once approved.",
+  "layout": "pages",
+  "spec": "lucid-spec.json",
+  "layoutNotes": "lucid-spec-layout.json",
+  "pages": [
+    {
+      "index": 1,
+      "id": "p1",
+      "title": "1. Home (/) · cycle 2",
+      "flow": "home",
+      "frames": 11
+    },
+    {
+      "index": 2,
+      "id": "p2",
+      "title": "2. Beta signup (/beta) · cycle 2",
+      "flow": "beta-signup",
+      "frames": 4
+    },
+    {
+      "index": 3,
+      "id": "p3",
+      "title": "3. How it works (/how-it-works) · cycle 2",
+      "flow": "how-it-works",
+      "frames": 5
+    },
+    {
+      "index": 4,
+      "id": "p4",
+      "title": "4. Pricing (/pricing) · cycle 2",
+      "flow": "pricing",
+      "frames": 2
+    }
+  ],
+  "capturedCommit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+  "pr": 1,
+  "deployUrl": "https://deploy-preview-1--harvest-for-lucid.netlify.app",
+  "netlifyDeploy": "6abff3efbcf7f40008ae2c98",
+  "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c2-<flow>/",
+  "assetCheck": "22/22 asset-urls.json URLs 200 and byte-identical to annotated PNGs (2026-10-02 ~12:40 MDT)",
+  "lucidCalls": {
+    "search": 4,
+    "get_mcp_resource(diagram-specification)": 1,
+    "lucid_create_diagram_from_specification": "2 (both rejected before reaching Lucid)",
+    "lucid_export_document_as_PNG": 0,
+    "scratchDocs": 0
+  }
+}

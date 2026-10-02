@@ -1,0 +1,48 @@
+{
+  "layout": "pages",
+  "frame": {
+    "w": 2240,
+    "hByFlow": {
+      "home": 3738,
+      "beta-signup": 3684,
+      "how-it-works": 3630,
+      "pricing": 3738
+    },
+    "pad": 400,
+    "caption_gap": 360,
+    "gap": 480,
+    "row_gap": 1600,
+    "style": {
+      "fill": {
+        "type": "color",
+        "color": "#F2F3F5"
+      },
+      "stroke": {
+        "color": "#F2F3F5",
+        "width": 0,
+        "style": "solid"
+      }
+    },
+    "order": [
+      "img",
+      "hdr",
+      "changes",
+      "before-lbl",
+      "before-img"
+    ],
+    "radius": "not settable via Standard Import (Lucid default)"
+  },
+  "pages": [
+    "1. Home (/) \u00b7 cycle 2",
+    "2. Beta signup (/beta) \u00b7 cycle 2",
+    "3. How it works (/how-it-works) \u00b7 cycle 2",
+    "4. Pricing (/pricing) \u00b7 cycle 2"
+  ],
+  "framesPerFlow": {
+    "home": 11,
+    "beta-signup": 4,
+    "how-it-works": 5,
+    "pricing": 2
+  },
+  "assetBase": "https://journey-assets-ai-xform.netlify.app/harvest-site-c2-<flow>/"
+}
