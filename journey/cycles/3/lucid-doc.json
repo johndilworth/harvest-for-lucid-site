@@ -1,0 +1,48 @@
+{
+ "cycle": 3,
+ "harvestedFrom": 2,
+ "harvestSource": "manual/dashboard (Run harvest now, 2026-10-13 10:22 MT)",
+ "commit": "9f6f8db",
+ "branch": "cycle-2-feedback",
+ "previewUrl": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app",
+ "pullRequest": null,
+ "boardRules": "Lucidchart only; no hub; 11 home screens > 5 so split into 3 boards by story section; page background #E8EAED; frames #F2F3F5 no border, 400 px padding; sticky-author line in legend; org-wide comment links",
+ "boards": [
+  {
+   "flow": "home-story",
+   "title": "Harvest site — Cycle 3 review (preview 9f6f8db) · Home · story",
+   "docId": "5448a628-69f0-444f-a9a8-ee3b9e1d06d2",
+   "editUrl": "https://lucid.app/lucidchart/5448a628-69f0-444f-a9a8-ee3b9e1d06d2/edit",
+   "commentUrl": "https://lucid.app/lucidchart/5448a628-69f0-444f-a9a8-ee3b9e1d06d2/edit?invitationId=inv_fa86c165-fa7d-41d8-a708-347f9f252899",
+   "frames": 5,
+   "description": "Hero, problem, loop, benefits, works with your agents",
+   "harvest": true,
+   "spec": "lucid-spec-home-story.json",
+   "renderCheck": "export/home-story-p1.png (all screenshots and before thumbnails render)"
+  },
+  {
+   "flow": "home-proof",
+   "title": "Harvest site — Cycle 3 review (preview 9f6f8db) · Home · proof",
+   "docId": "5217e3f9-4530-4f04-90cc-989da95dad72",
+   "editUrl": "https://lucid.app/lucidchart/5217e3f9-4530-4f04-90cc-989da95dad72/edit",
+   "commentUrl": "https://lucid.app/lucidchart/5217e3f9-4530-4f04-90cc-989da95dad72/edit?invitationId=inv_6d469560-4a70-4f48-97f8-3dac5e9be26c",
+   "frames": 3,
+   "description": "Before/after, paper trail, results",
+   "harvest": true,
+   "spec": "lucid-spec-home-proof.json",
+   "renderCheck": "export/home-proof-p1.png (all screenshots and before thumbnails render)"
+  },
+  {
+   "flow": "home-close",
+   "title": "Harvest site — Cycle 3 review (preview 9f6f8db) · Home · close",
+   "docId": "8ebd8ae7-da9b-4140-8ae0-d57ffb0239fb",
+   "editUrl": "https://lucid.app/lucidchart/8ebd8ae7-da9b-4140-8ae0-d57ffb0239fb/edit",
+   "commentUrl": "https://lucid.app/lucidchart/8ebd8ae7-da9b-4140-8ae0-d57ffb0239fb/edit?invitationId=inv_4adc4c16-7193-4c38-ad4a-ae0b3638686b",
+   "frames": 3,
+   "description": "Compare table, Lucidchart, closing band and footer",
+   "harvest": true,
+   "spec": "lucid-spec-home-close.json",
+   "renderCheck": "export/home-close-p1.png (all screenshots and before thumbnails render)"
+  }
+ ]
+}

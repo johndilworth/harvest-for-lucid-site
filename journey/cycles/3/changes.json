@@ -1,0 +1,52 @@
+{
+ "source": "journey/cycles/2/harvest/feedback-home.json (9 stickies, Lucid 94e6f74e, all by John Dilworth), branch cycle-2-feedback @ 9f6f8db",
+ "flows": {
+  "home-story": {
+   "default": [
+    "[must] One-page site: How it works, Pricing and Beta pages removed; nav links jump to sections on this page"
+   ]
+  },
+  "home-proof": {
+   "default": [
+    "[try] Section order follows the story: problem, loop, benefits, agents, then proof",
+    "[must] One-page site: How it works, Pricing and Beta pages removed; nav links jump to sections on this page"
+   ]
+  },
+  "home-close": {
+   "default": [
+    "[must] One-page site: How it works, Pricing and Beta pages removed; nav links jump to sections on this page"
+   ]
+  }
+ },
+ "steps": {
+  "home-01-hero": [
+   "[try] Headline is now “Every sticky note becomes a change”",
+   "[try] Hero copy leads with the team and the outcome (story structure)",
+   "[must] Buttons jump to How it works and Why teams use it (no beta page)",
+   "[must] One-page site: How it works, Pricing and Beta pages removed; nav links jump to sections on this page"
+  ],
+  "home-02-problem": [
+   "[try] Problem headlines reworded as negatives: “Only one voice reaches the AI”, “Feedback gets lost in translation”, “Decisions vanish with the chat”"
+  ],
+  "home-03-how": [
+   "[try] Loop is now “Review. Harvest. Ship. Repeat.”: Capture folded into Review, new Repeat step",
+   "[must] Loop copy covers the how-it-works basics that were on /how-it-works"
+  ],
+  "home-04-benefits": [
+   "[try] Unchanged copy; now follows the loop in the story order"
+  ],
+  "home-05-agents": [
+   "[try] “Honest numbers on what a cycle costs” replaced by “Works with your agents” (no AI seat per reviewer, one agent run per cycle, people stay in charge); measurements removed"
+  ],
+  "home-09-compare": [
+   "[try] Red ✕ on drawbacks, green ✓ on Harvest; cells rewritten in pros/cons style"
+  ],
+  "home-10-suite": [
+   "[must] Bullet list removed (the description is enough)"
+  ],
+  "home-11-cta-footer": [
+   "[must] Footer link columns and dead legal links removed",
+   "[try] Closing band has no beta button; it describes the pilot instead"
+  ]
+ }
+}

@@ -6,92 +6,53 @@
 # Cycle 2 (PR #1): the Lucid global bar and the announcement banner are gone; the only header is the sticky 60px Harvest
 # nav (Overview / How it works / Pricing / Beta + "Join the beta" button). Page title on / is now "Harvest | Lucid".
 # The beta flow still enters via the hero link "Get early access" (the nav "Join the beta" goes to the same /beta).
+# Cycle 3 (9f6f8db): one-page site. /how-it-works, /pricing, /beta now 301 to /. Nav links jump to sections.
+# The 11 home screens are split into three flows/boards (5-screen board rule): story (5), proof (3), close (3).
 version: 1
 base_url: https://harvest-for-lucid.netlify.app
 viewport: { width: 1440, height: 1024 }
 flows:
-  - key: home
-    name: Home page, top to bottom (viewport screens)
+  - key: home-story
+    name: "Home: problem, loop, benefits, agents"
     start_url: /
     steps:
       - key: home-01-hero
-        expect: { route: /, h1: Turn every sticky note into a pull request }
+        expect: { route: /, h1: Every sticky note becomes a change }
       - key: home-02-problem
         expect: { route: / }
         scroll: { to: { role: heading, name: "Prototyping with AI shouldn’t be a one-person chat" }, offset: 140 }
       - key: home-03-how
         expect: { route: / }
-        scroll: { to: { role: heading, name: Capture. Review. Harvest. Ship. }, offset: 140 }
+        scroll: { to: { role: heading, name: "Review. Harvest. Ship. Repeat." }, offset: 140 }
       - key: home-04-benefits
         expect: { route: / }
         scroll: { to: { role: heading, name: "Design with your whole team, not just a chat window" }, offset: 140 }
-      - key: home-05-before-after
+      - key: home-05-agents
         expect: { route: / }
-        scroll: { to: { role: heading, name: "See every cycle, side by side" }, offset: 140 }
-      - key: home-06-paper-trail
-        expect: { route: / }
-        scroll: { to: { role: heading, name: A paper trail beside every pull request }, offset: 140 }
-      - key: home-07-results
-        expect: { route: / }
-        scroll: { to: { role: heading, name: Three review cycles in one evening }, offset: 140 }
-      - key: home-08-cost
-        expect: { route: / }
-        scroll: { to: { role: heading, name: Honest numbers on what a cycle costs }, offset: 140 }
-      - key: home-09-compare
-        expect: { route: / }
-        scroll: { to: { role: heading, name: Where Harvest fits }, offset: 140 }
-      - key: home-10-suite
-        expect: { route: / }
-        scroll: { to: { role: heading, name: Built on the Lucidchart your team already uses }, offset: 200 }
-      - key: home-11-cta-footer
-        expect: { route: / }
-        scroll: { bottom: true }
-  - key: beta-signup
-    name: Home hero CTA > /beta > filled form > success
+        scroll: { to: { role: heading, name: "Works with your agents" }, offset: 140 }
+  - key: home-proof
+    name: "Home: before/after, paper trail, results"
     start_url: /
     steps:
-      - key: beta-01-home-cta
-        expect: { route: /, h1: Turn every sticky note into a pull request }
-        action: { click: { role: link, name: Get early access } }
-      - key: beta-02-form
-        expect: { route: /beta, h1: Join the Harvest beta }
-      - key: beta-03-form-filled
-        expect: { route: /beta, h1: Join the Harvest beta }
-        prepare:
-          - { fill: { role: textbox, name: Full name }, value: Jordan Lee }
-          - { fill: { role: textbox, name: Work email }, value: jordan@example.com }
-          - { fill: { role: textbox, name: Company }, value: Example Co }
-          - { select: { role: combobox, name: Your role }, value: Product manager }
-          - { select: { role: combobox, name: How many reviewers would join a cycle? }, value: 3–5 }
-          - { fill: { role: textbox, name: What would you review first? }, value: Onboarding flow of our staging app }
-          - { check: { role: checkbox, name: My team uses Lucidchart today } }
-        action: { click: { role: button, name: Join the beta waitlist } }
-      - key: beta-04-success
-        expect: { route: /beta, h1: "You’re on the beta list" }
-  - key: how-it-works
-    name: How it works page (viewport screens)
-    start_url: /how-it-works
+      - key: home-06-before-after
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "See every cycle, side by side" }, offset: 140 }
+      - key: home-07-paper-trail
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "A paper trail beside every pull request" }, offset: 140 }
+      - key: home-08-results
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "Three review cycles in one evening" }, offset: 140 }
+  - key: home-close
+    name: "Home: compare, Lucidchart, closing"
+    start_url: /
     steps:
-      - key: how-01-top
-        expect: { route: /how-it-works, h1: "From prototype to pull request, one review cycle at a time" }
-      - key: how-02-review
-        expect: { route: /how-it-works }
-        scroll: { to: { role: heading, name: "Review: stickies and sketches, right on the screen" }, offset: 120 }
-      - key: how-03-harvest-ship
-        expect: { route: /how-it-works }
-        scroll: { to: { role: heading, name: "Harvest: collect, map and propose" }, offset: 120 }
-      - key: how-04-repeat
-        expect: { route: /how-it-works }
-        scroll: { to: { role: heading, name: "Then repeat, with before and after" }, offset: 120 }
-      - key: how-05-limits
-        expect: { route: /how-it-works }
-        scroll: { bottom: true }
-  - key: pricing
-    name: Pricing page
-    start_url: /pricing
-    steps:
-      - key: pricing-01-plans
-        expect: { route: /pricing, h1: "Pricing: coming soon" }
-      - key: pricing-02-faq
-        expect: { route: /pricing }
+      - key: home-09-compare
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "Where Harvest fits" }, offset: 140 }
+      - key: home-10-suite
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "Built on the Lucidchart your team already uses" }, offset: 200 }
+      - key: home-11-cta-footer
+        expect: { route: / }
         scroll: { bottom: true }
