@@ -1,0 +1,441 @@
+{
+  "docId": "94e6f74e-a6ce-43cd-a33d-73bb349db041",
+  "cycle": 2,
+  "harvestedAt": "2026-10-13T16:24:06.713649+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-01-hero",
+      "pageId": "p1",
+      "frameTitle": "home-01-hero · / · Harvest | Lucid",
+      "stepKey": "home-01-hero",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/01-home-01-hero.png",
+      "feedback": [
+        {
+          "itemId": ".jKzdsJVGTHm",
+          "kind": "sticky",
+          "text": "Make this a one-page site for now. The other pages are nice, but want a simple focused message to pitch the concept. Drop How it works, pricing, beta.\n\nensure that messaging on this main page covers basic details of how it works.",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 978.7591599187085,
+            "y": 322.4669279687189,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "5sMC5HgVLfjC",
+          "kind": "sticky",
+          "text": "Change title from \"Turn every sticky note into a pull request\" to \n\n\"Every sticky note becomes a change\" — ",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 260.1810021415565,
+            "y": 733.7761266257185,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-02-problem",
+      "pageId": "p1",
+      "frameTitle": "home-02-problem · / · Harvest | Lucid",
+      "stepKey": "home-02-problem",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/02-home-02-problem.png",
+      "feedback": [
+        {
+          "itemId": "YoKzd2h1ke_f",
+          "kind": "sticky",
+          "text": "Apply this story structure to the overall structure of the copy and sections in this site. ",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 4628.895435506082,
+            "y": 547.5257523582557,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-02-problem",
+            "via": null,
+            "bbox": "frame-home-02-problem",
+            "bestOverlap": {
+              "frameId": "frame-home-02-problem",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "hnKzjWTvxm3l",
+          "kind": "sticky",
+          "text": "these don't look enough like negatives - need to adjust headline to include negative emphasis. They look almost like features when they are supposted to be problems. \n\n",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 4235.275278996378,
+            "y": 658.0969873735407,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-02-problem",
+            "via": "img-home-02-problem",
+            "bbox": "frame-home-02-problem",
+            "bestOverlap": {
+              "frameId": "frame-home-02-problem",
+              "ratio": 1.0
+            }
+          }
+        },
+        {
+          "itemId": "0lKzNyaZjc.a",
+          "kind": "sticky",
+          "text": "Remove \"Capture\" from beginning - the capture will be an implied part of review. Add \"Repeat\" after \"Ship\" to emphasize the review loop. ",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 4054.9154329137855,
+            "y": 1298.1013253568444,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-02-problem",
+            "via": null,
+            "bbox": "frame-home-02-problem",
+            "bestOverlap": {
+              "frameId": "frame-home-02-problem",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-03-how",
+      "pageId": "p1",
+      "frameTitle": "home-03-how · / · Harvest | Lucid",
+      "stepKey": "home-03-how",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/03-home-03-how.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-04-benefits",
+      "pageId": "p1",
+      "frameTitle": "home-04-benefits · / · Harvest | Lucid",
+      "stepKey": "home-04-benefits",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/04-home-04-benefits.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-05-before-after",
+      "pageId": "p1",
+      "frameTitle": "home-05-before-after · / · Harvest | Lucid",
+      "stepKey": "home-05-before-after",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/05-home-05-before-after.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-06-paper-trail",
+      "pageId": "p1",
+      "frameTitle": "home-06-paper-trail · / · Harvest | Lucid",
+      "stepKey": "home-06-paper-trail",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/06-home-06-paper-trail.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-07-results",
+      "pageId": "p1",
+      "frameTitle": "home-07-results · / · Harvest | Lucid",
+      "stepKey": "home-07-results",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/07-home-07-results.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-08-cost",
+      "pageId": "p1",
+      "frameTitle": "home-08-cost · / · Harvest | Lucid",
+      "stepKey": "home-08-cost",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/08-home-08-cost.png",
+      "feedback": [
+        {
+          "itemId": "BH1CA69Yn3l1",
+          "kind": "sticky",
+          "text": "This section should be pitched as a positive aspect for  cost — since we don't have numbers yet, change this section to be about \"works with your agents\" — lets people contribute to editing without adding AI licenses and usage for each contributor.\n\nCurrent measurements don't really matter right now. The pitch is more about optimizing collaboration and workflows.",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 19324.194331034818,
+            "y": 615.214932037313,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-08-cost",
+            "via": null,
+            "bbox": "frame-home-08-cost",
+            "bestOverlap": {
+              "frameId": "frame-home-08-cost",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-09-compare",
+      "pageId": "p1",
+      "frameTitle": "home-09-compare · / · Harvest | Lucid",
+      "stepKey": "home-09-compare",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/09-home-09-compare.png",
+      "feedback": [
+        {
+          "itemId": "iF1CkMyElwKR",
+          "kind": "sticky",
+          "text": "Add a red    to items that are negative and a green   check to harvest items in table that are better. \n\nRevise table so text matches pros/cons style. ",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 22475.33634206075,
+            "y": 1185.4327791831333,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-09-compare",
+            "via": "img-home-09-compare",
+            "bbox": "frame-home-09-compare",
+            "bestOverlap": {
+              "frameId": "frame-home-09-compare",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-10-suite",
+      "pageId": "p1",
+      "frameTitle": "home-10-suite · / · Harvest | Lucid",
+      "stepKey": "home-10-suite",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/10-home-10-suite.png",
+      "feedback": [
+        {
+          "itemId": "LC1CeWq~ayLu",
+          "kind": "sticky",
+          "text": "do: remove bullets from this part of the page - the description page is enough",
+          "priority": "must",
+          "prioritySource": "text",
+          "textPriority": "must",
+          "colorPriority": "try",
+          "priorityConflict": true,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 24919.479824969174,
+            "y": 923.9532252168765,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-10-suite",
+            "via": "img-home-10-suite",
+            "bbox": "frame-home-10-suite",
+            "bestOverlap": {
+              "frameId": "frame-home-10-suite",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-11-cta-footer",
+      "pageId": "p1",
+      "frameTitle": "home-11-cta-footer · / · Harvest | Lucid",
+      "stepKey": "home-11-cta-footer",
+      "matchedBy": "frame-id",
+      "flow": "home",
+      "route": "/",
+      "url": "https://deploy-preview-1--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "7a89b647f23412b409f05e5540b934ae7bbfad6e",
+      "screenshot": "out/cycle-2/home/annotated/11-home-11-cta-footer.png",
+      "feedback": [
+        {
+          "itemId": "oLTAdC4QJoj3",
+          "kind": "sticky",
+          "text": "remove all these links from the footer this will only be for internal use and doesn't need to pretend to be larger website with more links that don't work.",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 28952.793520610114,
+            "y": 1147.6686255543673,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-11-cta-footer",
+            "via": null,
+            "bbox": "frame-home-11-cta-footer",
+            "bestOverlap": {
+              "frameId": "frame-home-11-cta-footer",
+              "ratio": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [
+    {
+      "itemId": "LC1CeWq~ayLu",
+      "textPriority": "must",
+      "colorPriority": "try",
+      "used": "must"
+    }
+  ],
+  "boardFeedback": [],
+  "needsIntent": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}

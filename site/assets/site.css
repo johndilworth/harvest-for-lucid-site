@@ -285,3 +285,10 @@ section{padding:clamp(56px,8vw,104px) 0}
 .hero .caption{margin-top:56px}
 .hero .h-xl{font-size:clamp(40px,5vw,64px)}
 @media (max-width:640px){.prcard{position:static;width:auto;margin-top:16px}.canvas{padding-bottom:24px}.hero .caption{margin-top:14px}}
+
+/* cycle 3: pros/cons marks in the compare table */
+.compare td{position:relative}
+.compare .mk{display:inline-flex;vertical-align:-3px;margin-right:8px}
+.compare .mk svg{display:block}
+.cta-band .lede{color:rgba(255,255,255,.85)}
+.footer .flegal{margin-top:0;padding-top:0;border-top:0}

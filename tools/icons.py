@@ -33,3 +33,12 @@ def ico(kind, color):
             f'stroke-linejoin="round" aria-hidden="true">{paths}</svg>')
 CHECK_BIG = ('<svg class="check" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#dcf5e3"/>'
   '<path d="M19 33l9 9 17-19" stroke="#1d7a3d" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+REPEAT = ('<svg viewBox="0 0 56 56" aria-hidden="true"><path d="M44 22a17 17 0 0 0-31-4" stroke="#1071e5" stroke-width="3" fill="none" stroke-linecap="round"/>'
+  '<path d="M10 10v9h9" stroke="#1071e5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'
+  '<path d="M12 34a17 17 0 0 0 31 4" stroke="#eb5a00" stroke-width="3" fill="none" stroke-linecap="round"/>'
+  '<path d="M46 46v-9h-9" stroke="#eb5a00" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'
+  '<rect x="21" y="21" width="14" height="14" rx="1.5" fill="#ffe342"/></svg>')
+YES = ('<svg viewBox="0 0 20 20" width="18" height="18" role="img" aria-label="Better"><circle cx="10" cy="10" r="9" fill="#1d7a3d"/>'
+  '<path d="M5.8 10.4l2.8 2.8 5.6-6" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+NO = ('<svg viewBox="0 0 20 20" width="18" height="18" role="img" aria-label="Drawback"><circle cx="10" cy="10" r="9" fill="#d32f2f"/>'
+  '<path d="M6.5 6.5l7 7M13.5 6.5l-7 7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>')

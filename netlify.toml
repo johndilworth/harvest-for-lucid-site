@@ -13,3 +13,17 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# Cycle 3: one-page site. Old pages point back to the home page.
+[[redirects]]
+  from = "/how-it-works"
+  to = "/#how"
+  status = 301
+[[redirects]]
+  from = "/pricing"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/beta"
+  to = "/"
+  status = 301
