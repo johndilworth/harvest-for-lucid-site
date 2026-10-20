@@ -1,0 +1,50 @@
+{
+ "cycle": 4,
+ "harvestedFrom": 3,
+ "harvestSource": "approval mode (6/6 approved by John Dilworth in Grok Bot chat, 2026-10-19)",
+ "commit": "3dd76b4",
+ "branch": "main",
+ "previewUrl": "https://harvest-for-lucid.netlify.app",
+ "pullRequest": null,
+ "lucidFolder": 452808972,
+ "previousCycleFolder": {
+  "C3": 452845244
+ },
+ "boardRules": "Lucidchart only; no hub; 12 home screens > 5 so split into 3 boards by story section; page background #E8EAED; frames #F2F3F5 no border, 400 px padding; sticky-author line in legend; org-wide comment links",
+ "verified": "All 3 boards exported via lucid_export_document_as_PNG 2026-10-19 23:06 MT; every screenshot and before image renders",
+ "boards": [
+  {
+   "flow": "home-story",
+   "title": "Harvest Site:Home story:C4",
+   "docId": "cdc99cb7-7617-4895-aa26-9355e84d7fcc",
+   "editUrl": "https://lucid.app/lucidchart/cdc99cb7-7617-4895-aa26-9355e84d7fcc/edit",
+   "commentUrl": "https://lucid.app/lucidchart/cdc99cb7-7617-4895-aa26-9355e84d7fcc/edit?invitationId=inv_9d7306c8-70a9-4e7b-b978-17780d5cdcf6",
+   "frames": 5,
+   "description": "Hero, problem, loop, approval modes, benefits",
+   "harvest": true,
+   "spec": "lucid-spec-home-story.json"
+  },
+  {
+   "flow": "home-proof",
+   "title": "Harvest Site:Home proof:C4",
+   "docId": "e8c72295-b6c0-445c-9cc1-15d5ec33b7a6",
+   "editUrl": "https://lucid.app/lucidchart/e8c72295-b6c0-445c-9cc1-15d5ec33b7a6/edit",
+   "commentUrl": "https://lucid.app/lucidchart/e8c72295-b6c0-445c-9cc1-15d5ec33b7a6/edit?invitationId=inv_027ff5a7-5f90-45d0-b389-728cde490eba",
+   "frames": 4,
+   "description": "Works with your agents, before/after, paper trail, results",
+   "harvest": true,
+   "spec": "lucid-spec-home-proof.json"
+  },
+  {
+   "flow": "home-close",
+   "title": "Harvest Site:Home close:C4",
+   "docId": "e944c280-becd-4165-a4a8-8ab49d90172d",
+   "editUrl": "https://lucid.app/lucidchart/e944c280-becd-4165-a4a8-8ab49d90172d/edit",
+   "commentUrl": "https://lucid.app/lucidchart/e944c280-becd-4165-a4a8-8ab49d90172d/edit?invitationId=inv_1c0fe396-b5dc-4e10-ba00-768db4ff8cc4",
+   "frames": 3,
+   "description": "Compare table, Lucidchart, closing band and footer",
+   "harvest": true,
+   "spec": "lucid-spec-home-close.json"
+  }
+ ]
+}
