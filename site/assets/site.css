@@ -292,3 +292,87 @@ section{padding:clamp(56px,8vw,104px) 0}
 .compare .mk svg{display:block}
 .cta-band .lede{color:rgba(255,255,255,.85)}
 .footer .flegal{margin-top:0;padding-top:0;border-top:0}
+
+/* ---------- cycle 4: Design Loop look (JetBrains Mono, indigo accent, square edges) + dark theme (default) ---------- */
+:root{
+  --font:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --font-wide:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --dl-accent:#3a4fd8;--dl-accent-2:#3a4fd8;
+  --page:#fff;--surface:#fff;--surface-2:var(--grey-5);--line:var(--grey-10);--ink:var(--grey-100);--ink-2:var(--grey-80);--ink-3:var(--grey-70);
+  --band-orange:var(--orange-0);--band-teal:var(--teal-0);--band-grey:var(--grey-0);
+}
+html[data-theme=dark]{
+  color-scheme:dark;
+  --dl-accent:#8f9bff;--dl-accent-2:#3a4fd8;
+  --page:#0b0e17;--surface:#141927;--surface-2:#1b2133;--line:#2c3450;--ink:#e7eaf3;--ink-2:#a3abc2;--ink-3:#8b93ab;
+  --band-orange:#1a1410;--band-teal:#0d1a1b;--band-grey:#10141f;
+  --shadow-card:0 0 0 1px rgba(0,0,0,.2);--shadow-card-hover:0 8px 24px rgba(0,0,0,.45);
+}
+body{background:var(--page);color:var(--ink);font-size:15px}
+.h-xl,.h-lg{letter-spacing:-.03em}
+.hero .h-xl{font-size:clamp(34px,4.2vw,56px)}
+.lede,.card p,.step p,.split ul,.stat .l,.stage p,.faq details p,.success-card ol{color:var(--ink-2)}
+.caption,.note,.ba-pair figcaption,.flegal,.flegal a{color:var(--ink-3)}
+.pnav{background:color-mix(in srgb,var(--page) 88%,transparent);backdrop-filter:blur(8px);border-bottom-color:var(--line)}
+.pmark,.wordmark{color:var(--ink)}
+.pnav-links a{color:var(--ink-2)}
+.pnav-links a:hover{color:var(--ink);border-bottom-color:var(--dl-accent)}
+.btn{border-color:var(--ink)}
+.btn-primary{background:var(--dl-accent-2);border-color:var(--dl-accent-2);color:#fff}
+.btn-primary:hover{background:#2f41b8}
+.btn-secondary{background:transparent;color:var(--ink);border-color:var(--ink-3)}
+.btn-secondary:hover{background:var(--surface-2)}
+.link-arrow{color:var(--dl-accent)}
+.bg-orange{background:var(--band-orange)}.bg-teal{background:var(--band-teal)}.bg-grey{background:var(--band-grey)}
+.card,.step,.ba-panel,.form,.plan,.success-card,.shot{background:var(--surface);border-color:var(--line)}
+.step .num{color:var(--dl-accent)}
+.ba-tabs button{background:var(--surface-2);border-color:var(--line);color:var(--ink-2)}
+.ba-tabs button[aria-selected=true]{background:var(--surface);border-bottom-color:var(--surface);color:var(--ink);box-shadow:inset 0 3px 0 var(--dl-accent)}
+.trail,.compare{background:var(--surface);border-color:var(--line)}
+.trail th,.compare thead th{background:var(--surface-2)}
+.trail td,.trail th,.compare th,.compare td{border-color:var(--line)}
+.compare thead th.us{background:var(--dl-accent-2);color:#fff}
+.stat .n{color:var(--dl-accent)}
+.footer{background:var(--page);border-top-color:var(--line)}
+.cta-band{background:#141927;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.canvas{background-color:var(--surface-2);border-color:var(--line)}
+html[data-theme=dark] .canvas{background-image:radial-gradient(#2c3450 1px,transparent 1px)}
+html[data-theme=dark] .canvas .frame{background:#e7eaf3}
+html[data-theme=dark] .compare td.us{background:#161c33}
+html[data-theme=dark] .tag.before{background:#2c3450;color:#e7eaf3}
+html[data-theme=dark] .tag.after{background:#123a34;color:#7fe0cf}
+html[data-theme=dark] .status.done{background:#123a22;color:#8fe0a8}
+html[data-theme=dark] .status.rev{background:#3a2412;color:#ffc58a}
+html[data-theme=dark] .status.noop{background:#2c3450;color:#c5cbe0}
+html[data-theme=dark] .burger span{background:var(--ink)}
+html[data-theme=dark] .step svg rect[fill="#fff"],html[data-theme=dark] .step svg circle[fill="#fff"]{fill:#e7eaf3}
+html[data-theme=dark] .ico[stroke="#1071e5"]{stroke:#8f9bff}
+html[data-theme=dark] .ico[stroke="#cc4e00"]{stroke:#ff9a4d}
+html[data-theme=dark] .card.accent{border-color:#ff9a4d}
+@media (max-width:900px){.pnav.open .pnav-menu{background:var(--page)}}
+
+/* hero ASCII background (ported from Design Loop's AsciiBackground) */
+.hero{position:relative;overflow:hidden}
+.hero .ascii-bg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.hero .wrap{position:relative;z-index:1}
+
+/* theme toggle */
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;background:transparent;border:1px solid var(--line);color:var(--ink);cursor:pointer;padding:0}
+.theme-toggle:hover{background:var(--surface-2)}
+.theme-toggle svg{width:18px;height:18px}
+.theme-toggle .moon{display:none}
+html[data-theme=dark] .theme-toggle .sun{display:none}
+html[data-theme=dark] .theme-toggle .moon{display:block}
+.pnav .wrap>.theme-toggle{margin-left:8px}
+
+/* approval modes */
+.mode .badge{align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border:1px solid currentColor;color:var(--dl-accent)}
+.mode ul{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px}
+.mode li{margin:4px 0}
+@media (max-width:900px){.pnav .wrap>.theme-toggle{margin-left:auto}.burger{margin-left:8px}}
+.prcard{background:var(--surface);border-color:var(--line);color:var(--ink)}
+.prcard li{color:var(--ink-2)}
+html[data-theme=dark] .bg-indigo{background:#151a33}
+html[data-theme=dark] .trail td:nth-child(3){color:var(--ink-2)}
+html[data-theme=dark] .trail code{background:#1b2133}
+html[data-theme=dark] .canvas .ftitle{background:#000}

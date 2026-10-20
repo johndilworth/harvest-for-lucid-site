@@ -4,10 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Harvest | Lucid</title>
-<meta name="description" content="Every sticky note becomes a change: team reviews in Lucidchart, shipped by your agents with a paper trail.">
+<title>Turn every sticky note into a pull request | Harvest | Lucid</title>
+<meta name="description" content="Turn every sticky note into a pull request: team reviews in Lucidchart, shipped by your agents with a paper trail.">
+<meta name="color-scheme" content="dark light">
+<script>(function(){var t='dark';try{var s=localStorage.getItem('harvest-theme');if(s==='light'||s==='dark')t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})()</script>
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
@@ -18,6 +20,7 @@
     <div class="pnav-menu" id="pnav-menu">
     <ul class="pnav-links">
       <li><a href="#how">How it works</a></li>
+      <li><a href="#modes">Approval modes</a></li>
       <li><a href="#benefits">Why Harvest</a></li>
       <li><a href="#agents">Your agents</a></li>
       <li><a href="#compare">Compare</a></li>
@@ -26,15 +29,35 @@
       <a class="btn btn-primary btn-sm" href="#how">See how it works</a>
     </div>
     </div>
+    <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to light theme" title="Toggle light/dark theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg></button>
     <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="pnav-menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 <main id="main">
 
 <section class="hero" id="top">
+  <canvas class="ascii-bg" id="ascii-bg" aria-hidden="true"></canvas>
+  <script>
+  /* Animated ASCII background, ported from Design Loop's AsciiBackground (no dependencies, ~12 fps,
+     pauses when hidden; one static frame for reduced motion or ?capture=1). */
+  (function(){var c=document.getElementById('ascii-bg');if(!c||!c.getContext)return;var x=c.getContext('2d'),C=' .,:;-=+*#',W=12,H=18,w=0,h=0,last=0,t0=performance.now();
+  var frozen=/[?&]capture=1/.test(location.search)||window.__HARVEST_CAPTURE__||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches);
+  function size(){var d=Math.min(window.devicePixelRatio||1,2),r=c.parentNode.getBoundingClientRect();w=r.width;h=r.height;c.width=Math.round(w*d);c.height=Math.round(h*d);x.setTransform(d,0,0,d,0,0)}
+  function draw(t){x.clearRect(0,0,w,h);x.font="13px 'JetBrains Mono',ui-monospace,Menlo,monospace";x.textBaseline='top';
+    x.fillStyle=document.documentElement.getAttribute('data-theme')==='light'?'#3a4fd8':'#8f9bff';
+    var cols=Math.ceil(w/W),rows=Math.ceil(h/H),cx=cols*.7,cy=rows*.35;
+    for(var j=0;j<rows;j++)for(var i=0;i<cols;i++){var d=Math.hypot((i-cx)*.6,j-cy),v=Math.sin(i*.09+t*.6)+Math.sin(j*.16-t*.45)+Math.sin((i+j)*.05+t*.3)+Math.sin(d*.22-t*.9);
+      v=(v+4)/8;var k=Math.floor(Math.pow(v,1.4)*C.length);if(k<=0)continue;x.globalAlpha=.04+v*.12;x.fillText(C[Math.min(k,C.length-1)],i*W,j*H)}
+    x.globalAlpha=1}
+  function loop(n){requestAnimationFrame(loop);if(document.hidden||n-last<1000/12)return;last=n;draw((n-t0)/1000)}
+  size();draw(7.25);c.setAttribute('data-state',frozen?'static':'animated');
+  window.addEventListener('resize',function(){size();draw(frozen?7.25:(performance.now()-t0)/1000)});
+  document.addEventListener('harvest-theme',function(){if(frozen)draw(7.25)});
+  if(!frozen)requestAnimationFrame(loop)})();
+  </script>
   <div class="wrap hero-grid">
     <div>
-      <h1 class="h-xl">Every sticky note becomes a change</h1>
+      <h1 class="h-xl">Turn every sticky note into a pull request</h1>
       <p class="lede">Your whole team reviews a running prototype together in Lucidchart, leaving color-coded stickies and quick sketches right on each screen. Harvest turns that feedback into code changes your agents ship as one pull request with a live preview, and every sticky is linked to the change it caused.</p>
       <div class="cta-row">
         <a class="btn btn-primary btn-lg" href="#how">See how it works</a>
@@ -60,9 +83,9 @@
     <div class="sec-head"><h2 class="h-lg">Prototyping with AI shouldn&rsquo;t be a one-person chat</h2>
       <p class="lede">AI makes prototypes fast. But the review still runs through one person typing into one chat window, and everyone else&rsquo;s feedback gets retyped, summarized or lost.</p></div>
     <div class="cards">
-      <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#cc4e00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="16" r="6"/><circle cx="31" cy="16" r="6"/><path d="M4 38c0-7 5-11 11-11s11 4 11 11M22 38c0-7 4-11 9-11s10 4 10 11"/></svg><h3>Only one voice reaches the AI</h3><p>PMs, designers, engineering leads and execs have opinions that matter, but their feedback lands in Slack threads and meeting notes the agent never sees.</p></div>
-      <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#cc4e00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="32" height="24" rx="2"/><path d="M14 30v8l8-8"/><path d="M14 15h16M14 21h10"/></svg><h3>Feedback gets lost in translation</h3><p>&ldquo;The button on the third screen. No, the other one.&rdquo; Every comment has to be turned into a prompt before a model can act on it.</p></div>
-      <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#cc4e00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h28v30H8z"/><path d="M14 16h4M22 16h8M14 23h4M22 23h8M14 30h4M22 30h8"/></svg><h3>Decisions vanish with the chat</h3><p>Once the chat scrolls away, nobody can tell which requests were built, which were dropped and which quietly undid an earlier decision.</p></div>
+      <div class="card"><svg class="ico" viewBox="0 0 44 44" role="img" aria-label="Problem"><circle cx="22" cy="22" r="19" fill="#d32f2f"/><path d="M15 15l14 14M29 15L15 29" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/></svg><h3>Only one voice reaches the AI</h3><p>PMs, designers, engineering leads and execs have opinions that matter, but their feedback lands in Slack threads and meeting notes the agent never sees.</p></div>
+      <div class="card"><svg class="ico" viewBox="0 0 44 44" role="img" aria-label="Problem"><circle cx="22" cy="22" r="19" fill="#d32f2f"/><path d="M15 15l14 14M29 15L15 29" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/></svg><h3>Feedback gets lost in translation</h3><p>&ldquo;The button on the third screen. No, the other one.&rdquo; Every comment has to be turned into a prompt before a model can act on it.</p></div>
+      <div class="card"><svg class="ico" viewBox="0 0 44 44" role="img" aria-label="Problem"><circle cx="22" cy="22" r="19" fill="#d32f2f"/><path d="M15 15l14 14M29 15L15 29" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/></svg><h3>Decisions vanish with the chat</h3><p>Once the chat scrolls away, nobody can tell which requests were built, which were dropped and which quietly undid an earlier decision.</p></div>
     </div>
   </div>
 </section>
@@ -77,6 +100,19 @@
       <div class="step"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="15" cy="12" r="5" fill="#fff" stroke="#3a414a" stroke-width="2.4"/><circle cx="15" cy="44" r="5" fill="#fff" stroke="#3a414a" stroke-width="2.4"/><circle cx="41" cy="44" r="5" fill="#1d7a3d" stroke="#1d7a3d" stroke-width="2.4"/><path d="M15 17v22M41 39V24a6 6 0 0 0-6-6h-9" stroke="#3a414a" stroke-width="2.4" fill="none"/><path d="M30 13l-5 5 5 5" stroke="#3a414a" stroke-width="2.4" fill="none"/><path d="M38.5 44l2 2 3.5-4" stroke="#fff" stroke-width="2" fill="none"/></svg><div class="num">03</div><h3>Ship</h3><p>A coding agent applies the batch and opens one pull request with a deploy preview. The PR lists every sticky, verbatim, next to the change it caused.</p></div>
       <div class="step"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M44 22a17 17 0 0 0-31-4" stroke="#1071e5" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M10 10v9h9" stroke="#1071e5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 34a17 17 0 0 0 31 4" stroke="#eb5a00" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M46 46v-9h-9" stroke="#eb5a00" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="21" y="21" width="14" height="14" rx="1.5" fill="#ffe342"/></svg><div class="num">04</div><h3>Repeat</h3><p>The next board shows each screen before and after, with a list of what changed, so reviewers check that their feedback landed and add the next round.</p></div>
     </div>
+  </div>
+</section>
+
+<section id="modes">
+  <div class="wrap">
+    <div class="sec-head"><h2 class="h-lg">You choose who approves</h2>
+      <p class="lede">Everyone can leave feedback, but you decide how much reaches the code on its own. Pick a mode per project.</p></div>
+    <div class="cards">
+      <div class="card mode"><span class="badge">Auto</span><h3>Run on autopilot</h3><p>Harvest runs on a schedule, applies the items that pass its safety rules and merges them, so the next build is live without anyone pressing a button.</p><ul><li>Risky or unclear stickies are skipped and flagged for a person</li><li>Every applied sticky is still mapped to its change</li></ul></div>
+      <div class="card mode"><span class="badge">Manual</span><h3>Harvest on your schedule</h3><p>Run a harvest whenever you&rsquo;re ready. Changes arrive as separate pull requests with a deploy preview, and nothing merges until someone approves the PR.</p><ul><li>Review each PR in the tools you already use</li><li>Good for teams with an existing review process</li></ul></div>
+      <div class="card mode"><span class="badge">Approver</span><h3>An assigned person signs off</h3><p>A named reviewer approves, rejects, defers or adjusts each sticky before anything is applied. Only approved items reach the code.</p><ul><li>Status badges (Pending, Applied, Rejected, Deferred) appear on each sticky on the Lucid board</li><li>Deferred items come back in the next cycle</li></ul></div>
+    </div>
+    <figure style="margin:40px 0 0"><img class="shot" src="/img/dash-approval.webp" width="1150" height="505" alt="Harvest Dashboard approval list: six numbered proposals, each with a status pill, risk level, the reviewer's sticky and the proposed change"><figcaption class="caption">Approver mode in the Harvest Dashboard: every sticky becomes a numbered proposal with its risk and proposed change, waiting for the assigned reviewer.</figcaption></figure>
   </div>
 </section>
 
@@ -103,6 +139,7 @@
       <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#1071e5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="18" width="20" height="20"/><rect x="12" y="12" width="20" height="20"/><rect x="18" y="6" width="20" height="20"/></svg><h3>One agent run per cycle</h3><p>Your agent picks up the whole batch of feedback at once, instead of a stream of one-off prompts from different people.</p></div>
       <div class="card"><svg class="ico" viewBox="0 0 44 44" fill="none" stroke="#1071e5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 40V6M10 8h22l-5 7 5 7H10"/></svg><h3>People stay in charge</h3><p>Agents do the typing; your team decides what to build. Every change is reviewable in the pull request before it merges.</p></div>
     </div>
+    <figure style="margin:40px 0 0"><img class="shot" src="/img/dash-project.webp" width="1440" height="1024" alt="Harvest Dashboard project page: contribution chart, list of cycles, the current cycle's Lucidchart board and the changes made"><figcaption class="caption">The Harvest Dashboard tracks each project your agents run: every cycle, its Lucidchart board, and what changed.</figcaption></figure>
   </div>
 </section>
 
@@ -114,7 +151,7 @@
       <div class="ba-tabs" role="tablist" aria-label="Before and after examples">
         <button role="tab" id="tab-review" aria-controls="pan-review" aria-selected="true">Vendor review</button>
         <button role="tab" id="tab-detail" aria-controls="pan-detail" aria-selected="false" tabindex="-1">Vendor detail</button>
-        <button role="tab" id="tab-all" aria-controls="pan-all" aria-selected="false" tabindex="-1">All cycles</button>
+        <button role="tab" id="tab-all" aria-controls="pan-all" aria-selected="false" tabindex="-1">All projects</button>
       </div>
       <div class="ba-panel" role="tabpanel" id="pan-review" aria-labelledby="tab-review">
         <div class="ba-pair">
@@ -129,8 +166,8 @@
         </div>
       </div>
       <div class="ba-panel" role="tabpanel" id="pan-all" aria-labelledby="tab-all" hidden>
-        <img src="/img/evolution-c1-c4.webp" width="1024" height="991" alt="Lucidchart board comparing five screens across cycles 1 to 4" style="max-width:860px;margin:0 auto">
-        <p class="caption center">Lucidchart export: five screens across cycles 1&ndash;4 (0, 11, 8 and 13 feedback items applied by the PR behind each build).</p>
+        <img src="/img/dash-home.webp" width="1440" height="1024" alt="Harvest Dashboard home: project cards for Harvest Playground, Design Loop, Harvest Site and Harvest Dashboard, each with cycle count and a preview" style="max-width:980px;margin:0 auto">
+        <p class="caption center">The Harvest Dashboard: every project with its cycle count, contribution chart and latest build. Click a project to see each cycle side by side.</p>
       </div>
     </div>
   </div>

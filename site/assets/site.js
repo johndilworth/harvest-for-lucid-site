@@ -51,3 +51,15 @@
     var h = document.querySelector('#done h1'); h.tabIndex = -1; h.focus({ preventScroll: true });
   });
 })();
+// Cycle 4: light/dark toggle (dark is the default; choice saved in localStorage).
+(function () {
+  var b = document.getElementById('theme-toggle'), root = document.documentElement;
+  function label() { var d = root.getAttribute('data-theme') !== 'light'; b.setAttribute('aria-label', d ? 'Switch to light theme' : 'Switch to dark theme'); b.setAttribute('aria-pressed', String(d)) }
+  if (!b) return; label();
+  b.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('harvest-theme', next) } catch (e) {}
+    label(); document.dispatchEvent(new Event('harvest-theme'));
+  });
+})();
