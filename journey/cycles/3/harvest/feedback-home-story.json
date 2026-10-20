@@ -1,0 +1,263 @@
+{
+  "docId": "5448a628-69f0-444f-a9a8-ee3b9e1d06d2",
+  "cycle": 3,
+  "harvestedAt": "2026-10-20T04:53:15.435422+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-01-hero",
+      "pageId": "p1",
+      "frameTitle": "home-01-hero · / · Harvest | Lucid",
+      "stepKey": "home-01-hero",
+      "matchedBy": "frame-id",
+      "flow": "home-story",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-story/annotated/01-home-01-hero.png",
+      "feedback": [
+        {
+          "itemId": "x7YEXMVWF9IV",
+          "kind": "sticky",
+          "text": "Create a more techish looking site rather than Lucid default style. Use basic styling from \"Desig Loop\" for fonts and color scheme on the site. INclude the background shader animation used on Design Loop also. ",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 1953.623,
+            "y": 575.762,
+            "w": 223.112,
+            "h": 223.112
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        },
+        {
+          "itemId": "Lb2CaH19piOP",
+          "kind": "sticky",
+          "text": "Revert headline back to \"Turn every sticky note into a pull request\"",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 109.336,
+            "y": 619.818,
+            "w": 223.112,
+            "h": 223.112
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        },
+        {
+          "itemId": "d7YEcrmI3Mlz",
+          "kind": "sticky",
+          "text": "Add darkmode to the site — and make dark the default. ",
+          "priority": "must",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "must",
+          "priorityConflict": false,
+          "fill": "#e81313ff",
+          "bbox": {
+            "x": 1863.677,
+            "y": 233.966,
+            "w": 223.112,
+            "h": 223.112
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        },
+        {
+          "itemId": "Z4YEZsWQJiaA",
+          "kind": "sticky",
+          "text": "Add a section to explain the approval flow that allows collaboration, but also keeps changes in approval flow by specific people - highlight the different modes:\n\nAuto - run on autopilot, incorporating changes on a regular schedule automatically. \n\nManual - run a harvest at your own schedule\n\n---\n\nApprover mode — let's an assigned individual manually approve and adjust each change before it is incorporated into code.",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 102.249,
+            "y": 1459.243,
+            "w": 261.165,
+            "h": 261.165
+          },
+          "containment": {
+            "childrenIds": "frame-home-01-hero",
+            "via": null,
+            "bbox": "frame-home-01-hero",
+            "bestOverlap": {
+              "frameId": "frame-home-01-hero",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-02-problem",
+      "pageId": "p1",
+      "frameTitle": "home-02-problem · / · Harvest | Lucid",
+      "stepKey": "home-02-problem",
+      "matchedBy": "frame-id",
+      "flow": "home-story",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-story/annotated/02-home-02-problem.png",
+      "feedback": [
+        {
+          "itemId": "3E2Cv51nEKTg",
+          "kind": "sticky",
+          "text": "Make each of these icons an \"X\"    or cancel emoji so it's clear these are problems that exist with  current software. ",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 4164.926,
+            "y": 698.373,
+            "w": 160.0,
+            "h": 160.0
+          },
+          "containment": {
+            "childrenIds": "frame-home-02-problem",
+            "via": "img-home-02-problem",
+            "bbox": "frame-home-02-problem",
+            "bestOverlap": {
+              "frameId": "frame-home-02-problem",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        }
+      ]
+    },
+    {
+      "frameId": "frame-home-03-how",
+      "pageId": "p1",
+      "frameTitle": "home-03-how · / · Harvest | Lucid",
+      "stepKey": "home-03-how",
+      "matchedBy": "frame-id",
+      "flow": "home-story",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-story/annotated/03-home-03-how.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-04-benefits",
+      "pageId": "p1",
+      "frameTitle": "home-04-benefits · / · Harvest | Lucid",
+      "stepKey": "home-04-benefits",
+      "matchedBy": "frame-id",
+      "flow": "home-story",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-story/annotated/04-home-04-benefits.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-05-agents",
+      "pageId": "p1",
+      "frameTitle": "home-05-agents · / · Harvest | Lucid",
+      "stepKey": "home-05-agents",
+      "matchedBy": "frame-id",
+      "flow": "home-story",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-story/annotated/05-home-05-agents.png",
+      "feedback": [
+        {
+          "itemId": "a4YENxGB99Wk",
+          "kind": "sticky",
+          "text": "Update the site with screenshots from \"harvest dashboard\" project",
+          "priority": "try",
+          "prioritySource": "color",
+          "textPriority": null,
+          "colorPriority": "try",
+          "priorityConflict": false,
+          "fill": "#ffe342ff",
+          "bbox": {
+            "x": 12287.477,
+            "y": 1370.599,
+            "w": 304.506,
+            "h": 304.506
+          },
+          "containment": {
+            "childrenIds": "frame-home-05-agents",
+            "via": null,
+            "bbox": "frame-home-05-agents",
+            "bestOverlap": {
+              "frameId": "frame-home-05-agents",
+              "ratio": 1.0
+            }
+          },
+          "author": "John Dilworth"
+        }
+      ]
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [],
+  "boardFeedback": [],
+  "needsIntent": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}

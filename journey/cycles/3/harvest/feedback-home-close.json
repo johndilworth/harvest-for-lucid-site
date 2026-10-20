@@ -1,0 +1,66 @@
+{
+  "docId": "8ebd8ae7-da9b-4140-8ae0-d57ffb0239fb",
+  "cycle": 3,
+  "harvestedAt": "2026-10-20T04:53:15.484672+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-09-compare",
+      "pageId": "p1",
+      "frameTitle": "home-09-compare · / · Harvest | Lucid",
+      "stepKey": "home-09-compare",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-close/annotated/01-home-09-compare.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-10-suite",
+      "pageId": "p1",
+      "frameTitle": "home-10-suite · / · Harvest | Lucid",
+      "stepKey": "home-10-suite",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-close/annotated/02-home-10-suite.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-11-cta-footer",
+      "pageId": "p1",
+      "frameTitle": "home-11-cta-footer · / · Harvest | Lucid",
+      "stepKey": "home-11-cta-footer",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://6ace5bda91107ed2c5b1d4c2--harvest-for-lucid.netlify.app/",
+      "title": "Harvest | Lucid",
+      "h1": "Every sticky note becomes a change",
+      "clicked": null,
+      "commit": "9f6f8db",
+      "screenshot": "out/cycle-3/home-close/annotated/03-home-11-cta-footer.png",
+      "feedback": []
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [],
+  "boardFeedback": [],
+  "needsIntent": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}
