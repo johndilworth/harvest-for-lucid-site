@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T16:27:48.441Z",
+  "generatedAt": "2026-10-20T05:02:18.386Z",
   "entries": [
     {
       "stepKey": "home-01-hero",
@@ -1852,6 +1852,404 @@
       },
       "warnings": [],
       "annotated": "out/cycle-3/home-close/annotated/03-home-11-cta-footer.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-01-hero",
+      "flow": "home-story",
+      "flowName": "Home: problem, loop, approval modes, benefits",
+      "cycle": 4,
+      "index": 1,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": null,
+      "scrollY": 0,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-story/raw/01-home-01-hero.png",
+      "timestamp": "2026-10-20T05:02:11.321Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-story/annotated/01-home-01-hero.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-02-problem",
+      "flow": "home-story",
+      "flowName": "Home: problem, loop, approval modes, benefits",
+      "cycle": 4,
+      "index": 2,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Prototyping with AI shouldn\u2019t be a one-person chat"
+        },
+        "offset": 140
+      },
+      "scrollY": 838,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-story/raw/02-home-02-problem.png",
+      "timestamp": "2026-10-20T05:02:11.823Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-story/annotated/02-home-02-problem.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-03-how",
+      "flow": "home-story",
+      "flowName": "Home: problem, loop, approval modes, benefits",
+      "cycle": 4,
+      "index": 3,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Review. Harvest. Ship. Repeat."
+        },
+        "offset": 140
+      },
+      "scrollY": 1656,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-story/raw/03-home-03-how.png",
+      "timestamp": "2026-10-20T05:02:12.308Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-story/annotated/03-home-03-how.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-12-modes",
+      "flow": "home-story",
+      "flowName": "Home: problem, loop, approval modes, benefits",
+      "cycle": 4,
+      "index": 4,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "You choose who approves"
+        },
+        "offset": 140
+      },
+      "scrollY": 2527,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-story/raw/04-home-12-modes.png",
+      "timestamp": "2026-10-20T05:02:12.820Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-story/annotated/04-home-12-modes.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-04-benefits",
+      "flow": "home-story",
+      "flowName": "Home: problem, loop, approval modes, benefits",
+      "cycle": 4,
+      "index": 5,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Design with your whole team, not just a chat window"
+        },
+        "offset": 140
+      },
+      "scrollY": 3849,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-story/raw/05-home-04-benefits.png",
+      "timestamp": "2026-10-20T05:02:13.311Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-story/annotated/05-home-04-benefits.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-05-agents",
+      "flow": "home-proof",
+      "flowName": "Home: agents, before/after, paper trail, results",
+      "cycle": 4,
+      "index": 1,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Works with your agents"
+        },
+        "offset": 140
+      },
+      "scrollY": 4914,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-proof/raw/01-home-05-agents.png",
+      "timestamp": "2026-10-20T05:02:14.646Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-proof/annotated/01-home-05-agents.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-06-before-after",
+      "flow": "home-proof",
+      "flowName": "Home: agents, before/after, paper trail, results",
+      "cycle": 4,
+      "index": 2,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "See every cycle, side by side"
+        },
+        "offset": 140
+      },
+      "scrollY": 6517,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-proof/raw/02-home-06-before-after.png",
+      "timestamp": "2026-10-20T05:02:15.148Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-proof/annotated/02-home-06-before-after.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-07-paper-trail",
+      "flow": "home-proof",
+      "flowName": "Home: agents, before/after, paper trail, results",
+      "cycle": 4,
+      "index": 3,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "A paper trail beside every pull request"
+        },
+        "offset": 140
+      },
+      "scrollY": 7569,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-proof/raw/03-home-07-paper-trail.png",
+      "timestamp": "2026-10-20T05:02:15.644Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-proof/annotated/03-home-07-paper-trail.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-08-results",
+      "flow": "home-proof",
+      "flowName": "Home: agents, before/after, paper trail, results",
+      "cycle": 4,
+      "index": 4,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Three review cycles in one evening"
+        },
+        "offset": 140
+      },
+      "scrollY": 8615,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-proof/raw/04-home-08-results.png",
+      "timestamp": "2026-10-20T05:02:16.138Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-proof/annotated/04-home-08-results.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-09-compare",
+      "flow": "home-close",
+      "flowName": "Home: compare, Lucidchart, closing",
+      "cycle": 4,
+      "index": 1,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Where Harvest fits"
+        },
+        "offset": 140
+      },
+      "scrollY": 9265,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-close/raw/01-home-09-compare.png",
+      "timestamp": "2026-10-20T05:02:17.360Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-close/annotated/01-home-09-compare.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-10-suite",
+      "flow": "home-close",
+      "flowName": "Home: compare, Lucidchart, closing",
+      "cycle": 4,
+      "index": 2,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "to": {
+          "role": "heading",
+          "name": "Built on the Lucidchart your team already uses"
+        },
+        "offset": 200
+      },
+      "scrollY": 10145,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-close/raw/02-home-10-suite.png",
+      "timestamp": "2026-10-20T05:02:17.862Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-close/annotated/02-home-10-suite.png",
+      "cursor": null
+    },
+    {
+      "stepKey": "home-11-cta-footer",
+      "flow": "home-close",
+      "flowName": "Home: compare, Lucidchart, closing",
+      "cycle": 4,
+      "index": 3,
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "route": "/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "scrolled": {
+        "bottom": true
+      },
+      "scrollY": 10322,
+      "textFingerprint": "5c4e8d8b905dbf67",
+      "fingerprintSource": "sha256(visible h1-h6,label,legend,th,button,a,[role=radio] text)[:16]",
+      "screenshot": "out/cycle-4/home-close/raw/03-home-11-cta-footer.png",
+      "timestamp": "2026-10-20T05:02:18.346Z",
+      "commit": "3dd76b4",
+      "deployUrl": "https://harvest-for-lucid.netlify.app",
+      "pr": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "warnings": [],
+      "annotated": "out/cycle-4/home-close/annotated/03-home-11-cta-footer.png",
       "cursor": null
     }
   ]

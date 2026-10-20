@@ -1,0 +1,46 @@
+{
+ "source": "journey/cycles/3/proposals.json (6 stickies on Lucid 5448a628, all by John Dilworth, all approved in Grok Bot chat), main @ 3dd76b4",
+ "flows": {
+  "home-story": {
+   "default": [
+    "[must] Design Loop look: JetBrains Mono, indigo accent; animated ASCII background behind the hero",
+    "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+   ]
+  },
+  "home-proof": {
+   "default": [
+    "[must] Design Loop look: JetBrains Mono, indigo accent; animated ASCII background behind the hero",
+    "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+   ]
+  },
+  "home-close": {
+   "default": [
+    "[must] Design Loop look: JetBrains Mono, indigo accent; animated ASCII background behind the hero",
+    "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+   ]
+  }
+ },
+ "steps": {
+  "home-01-hero": [
+   "[must] Headline back to \u201cTurn every sticky note into a pull request\u201d",
+   "[must] Design Loop look: JetBrains Mono, indigo accent; animated ASCII background behind the hero",
+   "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+  ],
+  "home-02-problem": [
+   "[try] Problem-card icons are red X-in-circle icons",
+   "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+  ],
+  "home-12-modes": [
+   "[try] New \u201cYou choose who approves\u201d section: Auto, Manual, Approver mode",
+   "[try] Harvest Dashboard screenshots replace older Design Loop shots"
+  ],
+  "home-05-agents": [
+   "[try] Harvest Dashboard screenshots replace older Design Loop shots",
+   "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+  ],
+  "home-06-before-after": [
+   "[try] Harvest Dashboard screenshots replace older Design Loop shots",
+   "[must] Dark theme by default, sun/moon toggle in the header (remembered)"
+  ]
+ }
+}

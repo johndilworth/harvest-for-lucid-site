@@ -8,32 +8,37 @@
 # The beta flow still enters via the hero link "Get early access" (the nav "Join the beta" goes to the same /beta).
 # Cycle 3 (9f6f8db): one-page site. /how-it-works, /pricing, /beta now 301 to /. Nav links jump to sections.
 # The 11 home screens are split into three flows/boards (5-screen board rule): story (5), proof (3), close (3).
+# Cycle 4 (3dd76b4, main): dark default, headline back to "Turn every sticky note into a pull request", new
+# "You choose who approves" section after the loop. 12 screens: story (5), proof (4: agents moved here), close (3).
 version: 1
 base_url: https://harvest-for-lucid.netlify.app
 viewport: { width: 1440, height: 1024 }
 flows:
   - key: home-story
-    name: "Home: problem, loop, benefits, agents"
+    name: "Home: problem, loop, approval modes, benefits"
     start_url: /
     steps:
       - key: home-01-hero
-        expect: { route: /, h1: Every sticky note becomes a change }
+        expect: { route: /, h1: Turn every sticky note into a pull request }
       - key: home-02-problem
         expect: { route: / }
         scroll: { to: { role: heading, name: "Prototyping with AI shouldn’t be a one-person chat" }, offset: 140 }
       - key: home-03-how
         expect: { route: / }
         scroll: { to: { role: heading, name: "Review. Harvest. Ship. Repeat." }, offset: 140 }
+      - key: home-12-modes
+        expect: { route: / }
+        scroll: { to: { role: heading, name: "You choose who approves" }, offset: 140 }
       - key: home-04-benefits
         expect: { route: / }
         scroll: { to: { role: heading, name: "Design with your whole team, not just a chat window" }, offset: 140 }
+  - key: home-proof
+    name: "Home: agents, before/after, paper trail, results"
+    start_url: /
+    steps:
       - key: home-05-agents
         expect: { route: / }
         scroll: { to: { role: heading, name: "Works with your agents" }, offset: 140 }
-  - key: home-proof
-    name: "Home: before/after, paper trail, results"
-    start_url: /
-    steps:
       - key: home-06-before-after
         expect: { route: / }
         scroll: { to: { role: heading, name: "See every cycle, side by side" }, offset: 140 }

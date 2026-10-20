@@ -1,0 +1,39 @@
+{
+  "layout": "pages",
+  "frame": {
+    "w": 2240,
+    "hByFlow": {
+      "home-proof": 3522
+    },
+    "pad": 400,
+    "caption_gap": 360,
+    "gap": 480,
+    "row_gap": 1600,
+    "style": {
+      "fill": {
+        "type": "color",
+        "color": "#F2F3F5"
+      },
+      "stroke": {
+        "color": "#F2F3F5",
+        "width": 0,
+        "style": "solid"
+      }
+    },
+    "order": [
+      "img",
+      "hdr",
+      "changes",
+      "before-lbl",
+      "before-img"
+    ],
+    "radius": "not settable via Standard Import (Lucid default)"
+  },
+  "pages": [
+    "1. Home \u00b7 proof (agents, before/after, paper trail, results) \u00b7 cycle 4"
+  ],
+  "framesPerFlow": {
+    "home-proof": 4
+  },
+  "assetBase": "https://harvest-dashboard.netlify.app/captures/harvest-site/c4-<flow>/"
+}
