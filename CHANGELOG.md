@@ -1,5 +1,18 @@
 # Changelog (Harvest cycles)
 
+## Cycle 5 — 2026-11-12 (approval mode: John Dilworth approved 1 of 1 in Grok Bot chat, with an edited instruction)
+Harvested the Cycle 4 Home story board (cdc99cb7): 1 red note (plain square, no author attribution) with Lucid brand font and colour tokens; Home proof and Home close had none.
+Proposals: `journey/cycles/4/proposals.json`, plan `journey/cycles/4/apply-plan.json`.
+
+### Applied (approved, edited instruction)
+- [must] c4-01 Lucid brand fonts and colours: Inter from Google Fonts in place of Graphik / Graphik Wide (Wide role = Inter 800 with slightly wider letter-spacing); Georgia italic serif stack in place of licensed Self Modern (italic, never all caps); greys #282C33 / #4C535D / #A9AFB8 / #DFE3E8 / #F2F3F5 plus white; blue #1071E5 as the main accent, indigo #635DFF and pink #D916A8 as secondary accents, mapped into both themes. Dark default, theme toggle and ASCII hero kept and recoloured. On dark backgrounds, link/icon blue is a lighter tint of #1071E5 so small text meets WCAG AA (the solid #1071E5 token is 3.01:1 on #282C33). · by Unknown (plain square note)
+
+### Skipped / rejected / deferred
+- none
+
+### Authors
+- Unknown (plain square note, no attribution): 1
+
 ## Cycle 4 — 2026-10-19 (approval mode: John Dilworth approved 6 of 6 in Grok Bot chat)
 Harvested the Cycle 3 Home story board (5448a628): 6 stickies, all by John Dilworth; Home proof and Home close had none.
 Proposals: `journey/cycles/3/proposals.json`, plan `journey/cycles/3/apply-plan.json`. Committed straight to `main` (PR tool returned 403 earlier).

@@ -9,7 +9,7 @@
 <meta name="color-scheme" content="dark light">
 <script>(function(){var t='dark';try{var s=localStorage.getItem('harvest-theme');if(s==='light'||s==='dark')t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})()</script>
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
@@ -43,8 +43,8 @@
   (function(){var c=document.getElementById('ascii-bg');if(!c||!c.getContext)return;var x=c.getContext('2d'),C=' .,:;-=+*#',W=12,H=18,w=0,h=0,last=0,t0=performance.now();
   var frozen=/[?&]capture=1/.test(location.search)||window.__HARVEST_CAPTURE__||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches);
   function size(){var d=Math.min(window.devicePixelRatio||1,2),r=c.parentNode.getBoundingClientRect();w=r.width;h=r.height;c.width=Math.round(w*d);c.height=Math.round(h*d);x.setTransform(d,0,0,d,0,0)}
-  function draw(t){x.clearRect(0,0,w,h);x.font="13px 'JetBrains Mono',ui-monospace,Menlo,monospace";x.textBaseline='top';
-    x.fillStyle=document.documentElement.getAttribute('data-theme')==='light'?'#3a4fd8':'#8f9bff';
+  function draw(t){x.clearRect(0,0,w,h);x.font="13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace";x.textBaseline='top';
+    x.fillStyle=document.documentElement.getAttribute('data-theme')==='light'?'#1071E5':'#5BA3F5';
     var cols=Math.ceil(w/W),rows=Math.ceil(h/H),cx=cols*.7,cy=rows*.35;
     for(var j=0;j<rows;j++)for(var i=0;i<cols;i++){var d=Math.hypot((i-cx)*.6,j-cy),v=Math.sin(i*.09+t*.6)+Math.sin(j*.16-t*.45)+Math.sin((i+j)*.05+t*.3)+Math.sin(d*.22-t*.9);
       v=(v+4)/8;var k=Math.floor(Math.pow(v,1.4)*C.length);if(k<=0)continue;x.globalAlpha=.04+v*.12;x.fillText(C[Math.min(k,C.length-1)],i*W,j*H)}

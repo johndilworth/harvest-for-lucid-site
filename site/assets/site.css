@@ -376,3 +376,66 @@ html[data-theme=dark] .bg-indigo{background:#151a33}
 html[data-theme=dark] .trail td:nth-child(3){color:var(--ink-2)}
 html[data-theme=dark] .trail code{background:#1b2133}
 html[data-theme=dark] .canvas .ftitle{background:#000}
+
+/* ---------- cycle 5: Lucid brand fonts and colors (c4-01, approved with Inter in place of Graphik) ---------- */
+:root{
+  --cg-100:#282C33;--cg-80:#4C535D;--cg-30:#A9AFB8;--cg-10:#DFE3E8;--cg-5:#F2F3F5;--white:#FFFFFF;
+  --blue-60:#1071E5;--blue-70:#005ED0;
+  --indigo-60:#635DFF;
+  --pink-60:#D916A8;
+  /* Inter stands in for Graphik; Wide role = Inter 800 + slightly wider tracking. Tertiary = serif italic fallback for Self Modern (never all caps). */
+  --font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  --font-wide:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  --font-tertiary:Georgia,'Times New Roman',Times,serif;
+  --font-wide-tracking:.03em;
+  --dl-accent:#1071E5;--dl-accent-2:#1071E5;
+  --page:#FFFFFF;--surface:#FFFFFF;--surface-2:#F2F3F5;--line:#DFE3E8;--ink:#282C33;--ink-2:#4C535D;--ink-3:#4C535D;
+  --band-orange:#F2F3F5;--band-teal:#F2F3F5;--band-grey:#F2F3F5;
+  --band-indigo:color-mix(in srgb,#635DFF 8%,#F2F3F5);
+}
+html[data-theme=dark]{
+  color-scheme:dark;
+  /* #1071E5 on #282C33 is 3.01:1 (large text only), so dark text/icon accent is a lighter tint of the same blue; solid fills and buttons keep #1071E5 with white type (4.65:1). */
+  --dl-accent:#5BA3F5;--dl-accent-2:#1071E5;
+  --page:#282C33;--surface:#32373F;--surface-2:#3A4048;--line:#4C535D;--ink:#FFFFFF;--ink-2:#DFE3E8;--ink-3:#A9AFB8;
+  --band-orange:#2E2C30;--band-teal:#2A2F33;--band-grey:#2C3036;
+  --band-indigo:color-mix(in srgb,#635DFF 14%,#282C33);
+  --shadow-card:0 0 0 1px rgba(0,0,0,.2);--shadow-card-hover:0 8px 24px rgba(0,0,0,.45);
+}
+body{background:var(--page);color:var(--ink);font-family:var(--font);font-size:16px}
+.h-wide,.wordmark,.step .num,.stat .n,.cost .card .n,.stage .big,.plan .price{
+  font-family:var(--font-wide);font-weight:800;letter-spacing:var(--font-wide-tracking);font-stretch:normal
+}
+.plan .price small{font-family:var(--font);font-weight:400;letter-spacing:normal}
+.card .quote,blockquote{font-family:var(--font-tertiary);font-style:italic;text-transform:none;color:var(--ink-2);border-left-color:var(--pink-60)}
+.h-xl,.h-lg{letter-spacing:-.015em}
+.hero .h-xl{font-size:clamp(36px,4.6vw,60px)}
+.btn-primary{background:var(--dl-accent-2);border-color:var(--dl-accent-2);color:#fff}
+.btn-primary:hover{background:var(--blue-70)}
+.link-arrow{color:var(--dl-accent)}
+.pnav-links a:hover,.pnav-links a[aria-current=page]{border-bottom-color:var(--dl-accent)}
+.wordmark .dot{background:var(--pink-60)}
+.bg-indigo{background:var(--band-indigo)}
+.cta-band{background:var(--cg-100);color:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cta-band .lede{color:var(--cg-10)}
+.compare thead th.us{background:var(--indigo-60);color:#fff}
+.stat .n,.step .num{color:var(--dl-accent)}
+.mode .badge{color:var(--indigo-60)}
+.card.accent{border-color:var(--pink-60)}
+:focus-visible{outline-color:var(--dl-accent)}
+html[data-theme=dark] .canvas{background-image:radial-gradient(var(--cg-80) 1px,transparent 1px)}
+html[data-theme=dark] .canvas .frame{background:var(--cg-5)}
+html[data-theme=dark] .compare td.us{background:color-mix(in srgb,#635DFF 16%,#282C33)}
+html[data-theme=dark] .tag.before{background:var(--cg-80);color:var(--cg-5)}
+html[data-theme=dark] .tag.after{background:color-mix(in srgb,#1071E5 22%,#282C33);color:#D6E8FB}
+html[data-theme=dark] .status.done{background:color-mix(in srgb,#1071E5 18%,#282C33);color:#D6E8FB}
+html[data-theme=dark] .status.rev{background:color-mix(in srgb,#D916A8 18%,#282C33);color:#F8D0EE}
+html[data-theme=dark] .status.noop{background:var(--cg-80);color:var(--cg-10)}
+html[data-theme=dark] .ico[stroke="#1071e5"]{stroke:var(--dl-accent)}
+html[data-theme=dark] .ico[stroke="#cc4e00"]{stroke:var(--pink-60)}
+html[data-theme=dark] .card.accent{border-color:var(--pink-60)}
+html[data-theme=dark] .bg-indigo{background:var(--band-indigo)}
+html[data-theme=dark] .trail code{background:var(--surface-2)}
+html[data-theme=dark] .canvas .ftitle{background:var(--cg-100)}
+html[data-theme=dark] .mode .badge{color:var(--dl-accent)}
+.sticky{font-family:var(--font)}

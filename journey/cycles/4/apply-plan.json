@@ -1,0 +1,16 @@
+{
+  "project": "harvest-site",
+  "cycle": 4,
+  "items": [
+    {
+      "id": "c4-01",
+      "lucidItemId": "p63LcTvfSFpo",
+      "kind": "product",
+      "priority": "must",
+      "author": "Unknown (plain square note, not a sticky, so Lucid shows no author)",
+      "stickyText": "Update the fonts and colors used on the prototype to these:\n:root {\n  --cg-100: #282C33;\n  --cg-80:  #4C535D;\n  --cg-30:  #A9AFB8;\n  --cg-10:  #DFE3E8;\n  --cg-5:   #F2F3F5;\n  --white:  #FFFFFF;\n\n  --blue-60:   #1071E5; /* primary accent */\n  --indigo-60: #635DFF;\n  --pink-60:   #D916A8;\n\n  --font-primary:   \"Graphik\", system-ui, sans-serif;\n  --font-secondary: \"Graphik Wide\", \"Graphik\", system-ui, sans-serif;\n  --font-tertiary:  \"Self Modern\", Georgia, serif; /* italic, never all caps */\n}",
+      "instruction": "Instead of Graphik, use Inter from Google Fonts as the alternative. Use Inter everywhere Graphik and Graphik Wide would go; for the Wide display role, use Inter at a heavier weight with slightly wider letter-spacing. Self Modern is licensed and we have no files, so use a serif italic fallback stack (Georgia etc.) for its role: italic, and never all caps. Colors: greys #282C33, #4C535D, #A9AFB8, #DFE3E8, #F2F3F5 and white; blue #1071E5 as the main accent; indigo #635DFF and pink #D916A8 as secondary accents. Map them into both the light and dark theme variables. Keep the dark default, the theme toggle and the ASCII hero, recolored to the tokens. Only the look changes. Check contrast is readable in both themes."
+    }
+  ],
+  "notApplied": []
+}
