@@ -1,0 +1,30 @@
+{
+ "source": "journey/cycles/4/proposals.json (1 note on Lucid cdc99cb7, no author attribution, approved by John Dilworth in Grok Bot chat with Inter in place of Graphik), main @ e319500, PR #2",
+ "flows": {
+  "home-story": {
+   "default": [
+    "[must] Lucid brand fonts and colors: Inter from Google Fonts in place of Graphik / Graphik Wide; Georgia italic serif in place of Self Modern; greys #282C33 / #4C535D / #A9AFB8 / #DFE3E8 / #F2F3F5 plus white; blue #1071E5 as the main accent, indigo #635DFF and pink #D916A8 as secondary accents, mapped into both themes",
+    "[must] Dark default, theme toggle and ASCII hero kept and recoloured to the Lucid tokens"
+   ]
+  },
+  "home-proof": {
+   "default": [
+    "[must] Lucid brand fonts and colors (Inter in place of Graphik) mapped into both themes",
+    "[must] Dark default, theme toggle and ASCII hero kept and recoloured to the Lucid tokens"
+   ]
+  },
+  "home-close": {
+   "default": [
+    "[must] Lucid brand fonts and colors (Inter in place of Graphik) mapped into both themes",
+    "[must] Dark default, theme toggle and ASCII hero kept and recoloured to the Lucid tokens"
+   ]
+  }
+ },
+ "steps": {
+  "home-01-hero": [
+   "[must] Lucid brand fonts and colors: Inter from Google Fonts in place of Graphik / Graphik Wide (Wide role = Inter 800 with slightly wider letter-spacing); Georgia italic serif stack in place of licensed Self Modern (italic, never all caps)",
+   "[must] Greys #282C33 / #4C535D / #A9AFB8 / #DFE3E8 / #F2F3F5 plus white; blue #1071E5 as the main accent, indigo #635DFF and pink #D916A8 as secondary accents, in both themes",
+   "[must] Dark default, theme toggle and ASCII hero kept and recoloured to the Lucid tokens"
+  ]
+ }
+}

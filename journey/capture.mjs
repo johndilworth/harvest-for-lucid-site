@@ -73,7 +73,11 @@ for (const flow of flows) {
   // reducedMotion + capture flag: the animated ASCII background renders one deterministic static frame,
   // so screenshots are stable across runs but still show the texture.
   const context = await browser.newContext({ viewport: spec.viewport, deviceScaleFactor: 1, reducedMotion: 'reduce' })
-  await context.addInitScript(() => { window.__DESIGN_LOOP_CAPTURE__ = true })
+  await context.addInitScript(() => {
+    window.__DESIGN_LOOP_CAPTURE__ = true
+    window.__HARVEST_CAPTURE__ = true
+    try { localStorage.setItem('harvest-theme', 'dark') } catch (e) {}
+  })
   // Deploy previews inject the Netlify collaboration drawer ("Collaborate on this Deploy Preview") via
   // /.netlify/scripts/cdp; it appears intermittently over the screen, so block it for clean captures.
   await context.route(/\/\.netlify\/scripts\/(cdp|hud)/, (r) => r.abort())  // harvest-site: also the public "Powered by Netlify" HUD
@@ -114,9 +118,9 @@ for (const flow of flows) {
     }
     if (scrolled) { await page.waitForTimeout(250); await page.waitForLoadState('networkidle') }
     // wait for images in view to finish decoding so screenshots are complete
-    await page.evaluate(async () => { await Promise.all([...document.images].filter((i) => !i.complete).map((i) => new Promise((r) => { i.onload = i.onerror = r }))) })
+    await page.evaluate(async () => { await Promise.all([...document.images].filter((i) => !i.complete).map((i) => new Promise((r) => { i.onload = i.onerror = r }))); if (document.fonts && document.fonts.ready) await document.fonts.ready })
     await page.mouse.move(0, 0)
-    await page.waitForTimeout(150)
+    await page.waitForTimeout(400)
     const url = page.url()
     const route = routeTemplate(url)
     const info = await screenInfo(page)

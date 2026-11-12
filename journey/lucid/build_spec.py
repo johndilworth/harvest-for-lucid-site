@@ -65,7 +65,7 @@ LEGEND_TEXT = ('Leave feedback as sticky notes INSIDE the screen\'s frame. Start
                '<span style="color:#9A7B00"><b>Yellow = Try</b></span>, '
                '<span style="color:#1565C0"><b>Blue = Consider</b></span>. '
                '<span style="color:#BA23F6"><b>Purple = Board format</b></span> (notes about this board\'s layout). '
-               'Comments are read as general feedback.')
+               'Stickies show your name — stay signed in. Comments are read as general feedback.')
 CHARS_PER_LINE, LINE_H = 56, 54                  # ~20pt text in a 1280 px wide block (measured on the cycle 5 board)
 def text_h(lines):
     """Height for a 'Changes in this cycle' block: heading + blank line + wrapped bullets."""
