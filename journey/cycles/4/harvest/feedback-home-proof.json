@@ -1,0 +1,82 @@
+{
+  "docId": "e8c72295-b6c0-445c-9cc1-15d5ec33b7a6",
+  "cycle": 4,
+  "harvestedAt": "2026-11-12T18:35:07.469292+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-05-agents",
+      "pageId": "p1",
+      "frameTitle": "home-05-agents · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-05-agents",
+      "matchedBy": "frame-id",
+      "flow": "home-proof",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-proof/annotated/01-home-05-agents.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-06-before-after",
+      "pageId": "p1",
+      "frameTitle": "home-06-before-after · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-06-before-after",
+      "matchedBy": "frame-id",
+      "flow": "home-proof",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-proof/annotated/02-home-06-before-after.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-07-paper-trail",
+      "pageId": "p1",
+      "frameTitle": "home-07-paper-trail · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-07-paper-trail",
+      "matchedBy": "frame-id",
+      "flow": "home-proof",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-proof/annotated/03-home-07-paper-trail.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-08-results",
+      "pageId": "p1",
+      "frameTitle": "home-08-results · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-08-results",
+      "matchedBy": "frame-id",
+      "flow": "home-proof",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-proof/annotated/04-home-08-results.png",
+      "feedback": []
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [],
+  "boardFeedback": [],
+  "needsIntent": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}

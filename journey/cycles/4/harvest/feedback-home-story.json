@@ -1,0 +1,126 @@
+{
+ "docId": "cdc99cb7-7617-4895-aa26-9355e84d7fcc",
+ "cycle": 4,
+ "harvestedAt": "2026-11-12T18:35:07.442414+00:00",
+ "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+ "frames": [
+  {
+   "frameId": "frame-home-01-hero",
+   "pageId": "p1",
+   "frameTitle": "home-01-hero \u00b7 / \u00b7 Turn every sticky note into a pull request | Harvest | Lucid",
+   "stepKey": "home-01-hero",
+   "matchedBy": "frame-id",
+   "flow": "home-story",
+   "route": "/",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+   "h1": "Turn every sticky note into a pull request",
+   "clicked": null,
+   "commit": "3dd76b4",
+   "screenshot": "out/cycle-4/home-story/annotated/01-home-01-hero.png",
+   "feedback": [
+    {
+     "itemId": "p63LcTvfSFpo",
+     "kind": "sticky",
+     "text": "Update the fonts and colors used on the prototype to these:\n:root {\n  --cg-100: #282C33;\n  --cg-80:  #4C535D;\n  --cg-30:  #A9AFB8;\n  --cg-10:  #DFE3E8;\n  --cg-5:   #F2F3F5;\n  --white:  #FFFFFF;\n\n  --blue-60:   #1071E5; /* primary accent */\n  --indigo-60: #635DFF;\n  --pink-60:   #D916A8;\n\n  --font-primary:   \"Graphik\", system-ui, sans-serif;\n  --font-secondary: \"Graphik Wide\", \"Graphik\", system-ui, sans-serif;\n  --font-tertiary:  \"Self Modern\", Georgia, serif; /* italic, never all caps */\n}",
+     "priority": "must",
+     "prioritySource": "color",
+     "textPriority": null,
+     "colorPriority": "must",
+     "priorityConflict": false,
+     "fill": "#ff8a80ff",
+     "bbox": {
+      "x": 167.166,
+      "y": 3401.831,
+      "w": 440.993,
+      "h": 268.125
+     },
+     "containment": {
+      "childrenIds": "frame-home-01-hero",
+      "via": null,
+      "bbox": "frame-home-01-hero"
+     },
+     "author": null,
+     "attachedItems": [
+      "C63LWqVr.1DT"
+     ],
+     "note": "Added by agent: a plain light-red square note (not a Lucid sticky, so no author attribution) pointing at an attached code block of Lucid design tokens, inside the hero frame. harvest.py only detects sticky notes."
+    }
+   ]
+  },
+  {
+   "frameId": "frame-home-02-problem",
+   "pageId": "p1",
+   "frameTitle": "home-02-problem \u00b7 / \u00b7 Turn every sticky note into a pull request | Harvest | Lucid",
+   "stepKey": "home-02-problem",
+   "matchedBy": "frame-id",
+   "flow": "home-story",
+   "route": "/",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+   "h1": "Turn every sticky note into a pull request",
+   "clicked": null,
+   "commit": "3dd76b4",
+   "screenshot": "out/cycle-4/home-story/annotated/02-home-02-problem.png",
+   "feedback": []
+  },
+  {
+   "frameId": "frame-home-03-how",
+   "pageId": "p1",
+   "frameTitle": "home-03-how \u00b7 / \u00b7 Turn every sticky note into a pull request | Harvest | Lucid",
+   "stepKey": "home-03-how",
+   "matchedBy": "frame-id",
+   "flow": "home-story",
+   "route": "/",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+   "h1": "Turn every sticky note into a pull request",
+   "clicked": null,
+   "commit": "3dd76b4",
+   "screenshot": "out/cycle-4/home-story/annotated/03-home-03-how.png",
+   "feedback": []
+  },
+  {
+   "frameId": "frame-home-12-modes",
+   "pageId": "p1",
+   "frameTitle": "home-12-modes \u00b7 / \u00b7 Turn every sticky note into a pull request | Harvest | Lucid",
+   "stepKey": "home-12-modes",
+   "matchedBy": "frame-id",
+   "flow": "home-story",
+   "route": "/",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+   "h1": "Turn every sticky note into a pull request",
+   "clicked": null,
+   "commit": "3dd76b4",
+   "screenshot": "out/cycle-4/home-story/annotated/04-home-12-modes.png",
+   "feedback": []
+  },
+  {
+   "frameId": "frame-home-04-benefits",
+   "pageId": "p1",
+   "frameTitle": "home-04-benefits \u00b7 / \u00b7 Turn every sticky note into a pull request | Harvest | Lucid",
+   "stepKey": "home-04-benefits",
+   "matchedBy": "frame-id",
+   "flow": "home-story",
+   "route": "/",
+   "url": "https://harvest-for-lucid.netlify.app/",
+   "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+   "h1": "Turn every sticky note into a pull request",
+   "clicked": null,
+   "commit": "3dd76b4",
+   "screenshot": "out/cycle-4/home-story/annotated/05-home-04-benefits.png",
+   "feedback": []
+  }
+ ],
+ "outsideFrames": [],
+ "containmentDisagreements": [],
+ "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+ "priorityConflicts": [],
+ "boardFeedback": [],
+ "needsIntent": [],
+ "comments": {
+  "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+  "unanchored": []
+ }
+}

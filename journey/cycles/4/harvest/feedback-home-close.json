@@ -1,0 +1,66 @@
+{
+  "docId": "e944c280-becd-4165-a4a8-8ab49d90172d",
+  "cycle": 4,
+  "harvestedAt": "2026-11-12T18:35:07.493566+00:00",
+  "containmentMethod": "childrenIds (Frame nodes in fetch) with BoundingBox overlap >= 0.50 as cross-check",
+  "frames": [
+    {
+      "frameId": "frame-home-09-compare",
+      "pageId": "p1",
+      "frameTitle": "home-09-compare · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-09-compare",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-close/annotated/01-home-09-compare.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-10-suite",
+      "pageId": "p1",
+      "frameTitle": "home-10-suite · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-10-suite",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-close/annotated/02-home-10-suite.png",
+      "feedback": []
+    },
+    {
+      "frameId": "frame-home-11-cta-footer",
+      "pageId": "p1",
+      "frameTitle": "home-11-cta-footer · / · Turn every sticky note into a pull request | Harvest | Lucid",
+      "stepKey": "home-11-cta-footer",
+      "matchedBy": "frame-id",
+      "flow": "home-close",
+      "route": "/",
+      "url": "https://harvest-for-lucid.netlify.app/",
+      "title": "Turn every sticky note into a pull request | Harvest | Lucid",
+      "h1": "Turn every sticky note into a pull request",
+      "clicked": null,
+      "commit": "3dd76b4",
+      "screenshot": "out/cycle-4/home-close/annotated/03-home-11-cta-footer.png",
+      "feedback": []
+    }
+  ],
+  "outsideFrames": [],
+  "containmentDisagreements": [],
+  "priorityRule": "start-of-text keyword (Do:/Must do/Do or Must do -> must, Try: -> try, Consider: -> maybe) wins over fill colour",
+  "priorityConflicts": [],
+  "boardFeedback": [],
+  "needsIntent": [],
+  "comments": {
+    "note": "list_document_threads returns only threadId/created/status and comments carry no shape anchor; comments cannot be mapped to frames via the connector",
+    "unanchored": []
+  }
+}
