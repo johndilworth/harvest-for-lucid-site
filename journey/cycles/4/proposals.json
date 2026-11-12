@@ -10,8 +10,8 @@
   "state": "decided",
   "createdAt": "2026-11-12T11:35:11-07:00",
   "decidedAt": "2026-11-12T12:25:43-07:00",
-  "appliedAt": null,
-  "appliedCommit": null,
+  "appliedAt": "2026-11-12T12:29:14-07:00",
+  "appliedCommit": "e319500",
   "items": [
     {
       "lucidItemId": "p63LcTvfSFpo",
@@ -26,7 +26,7 @@
       "interpretation": "Replace the site's fonts and colours with the attached Lucid brand tokens: cool greys #282C33 / #4C535D / #A9AFB8 / #DFE3E8 / #F2F3F5 plus white, blue #1071E5 as the primary accent, indigo #635DFF and pink #D916A8 as secondary accents, and Graphik / Graphik Wide / Self Modern (italic, never all caps) as the three typefaces. This reverses much of cycle 3's approved Design Loop look (JetBrains Mono, dark default).",
       "proposedChange": "In site/assets/site.css, map the colour variables (and the dark-theme overrides) to these tokens with blue-60 as the main accent, and set --font / --font-wide plus a new tertiary italic serif to the Graphik / Graphik Wide / Self Modern stacks. Graphik and Self Modern are licensed fonts the site doesn't host, so visitors would see the system-ui and Georgia fallbacks unless font files are supplied. Open question: keep the dark default + toggle and ASCII hero from cycle 3, or go light?",
       "risk": "med",
-      "status": "approved",
+      "status": "applied",
       "decision": {
         "decision": "approved",
         "by": "John Dilworth",
